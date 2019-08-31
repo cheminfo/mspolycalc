@@ -28043,11 +28043,11 @@
   "aliases": [
     {
       "path": "https://www.lactame.com/github/cheminfo-js/visualizer-helper/971f889fad84a5f9339ae6d5a3722d7c296993c9/",
-      "alias": "vh"
+      "alias": "vhxx"
     },
     {
-      "path": "http://localhost:9898/cheminfo-js/visualizer-helper/",
-      "alias": "vhxx"
+      "path": "../helper",
+      "alias": "vh"
     }
   ]
 }
