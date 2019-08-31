@@ -123,7 +123,7 @@
           "cols": [
             [
               {
-                "name": "Sequence",
+                "name": " Polymer chain",
                 "jpath": [
                   "modification"
                 ],
@@ -134,7 +134,7 @@
                 "visibility": "both",
                 "rendererOptions": "",
                 "editorOptions": "",
-                "width": 90,
+                "width": 188,
                 "hideColumn": []
               },
               {
@@ -149,7 +149,7 @@
                 "visibility": "both",
                 "rendererOptions": "",
                 "editorOptions": "",
-                "width": 56,
+                "width": 30,
                 "hideColumn": []
               },
               {
@@ -164,11 +164,11 @@
                 "visibility": "both",
                 "rendererOptions": "",
                 "editorOptions": "",
-                "width": 83,
+                "width": 114,
                 "hideColumn": []
               },
               {
-                "name": "Ion.",
+                "name": "Adduct",
                 "jpath": [
                   "ionization",
                   "mf"
@@ -180,11 +180,11 @@
                 "visibility": "both",
                 "rendererOptions": "",
                 "editorOptions": "",
-                "width": 51,
+                "width": 30,
                 "hideColumn": []
               },
               {
-                "name": "mm",
+                "name": "MF mass",
                 "jpath": [
                   "em"
                 ],
@@ -195,7 +195,7 @@
                 "visibility": "both",
                 "rendererOptions": "numeral:'0.0000'",
                 "editorOptions": "",
-                "width": 63,
+                "width": 30,
                 "hideColumn": []
               },
               {
@@ -211,11 +211,11 @@
                 "visibility": "both",
                 "rendererOptions": "numeral:'0.0000'",
                 "editorOptions": "",
-                "width": 75,
+                "width": 30,
                 "hideColumn": []
               },
               {
-                "name": "ppm",
+                "name": "Δ ppm",
                 "jpath": [
                   "ms",
                   "ppm"
@@ -231,7 +231,7 @@
                 "hideColumn": []
               },
               {
-                "name": "Chg",
+                "name": "z",
                 "jpath": [
                   "ms",
                   "charge"
@@ -281,7 +281,7 @@
                 "hideColumn": []
               },
               {
-                "name": "Qty",
+                "name": "Rel. abundance",
                 "jpath": [
                   "ms",
                   "similarity",
@@ -373,15 +373,15 @@
         "Default layer": {
           "position": {
             "left": 57,
-            "top": 0
+            "top": 6
           },
           "size": {
             "width": 77,
-            "height": 35
+            "height": 29
           },
           "zIndex": 0,
           "display": true,
-          "title": "Polymer ions distribution",
+          "title": "Assigned polymer masses",
           "bgColor": [
             255,
             255,
@@ -403,7 +403,7 @@
           },
           "zIndex": 0,
           "display": true,
-          "title": "Polymer ions distribution",
+          "title": "Assigned polymer masses",
           "bgColor": [
             255,
             255,
@@ -425,7 +425,7 @@
           },
           "zIndex": 0,
           "display": false,
-          "title": "Polymer ions distribution",
+          "title": "Assigned polymer masses",
           "bgColor": [
             255,
             255,
@@ -447,7 +447,7 @@
           },
           "zIndex": 0,
           "display": true,
-          "title": "Polymer ions distribution",
+          "title": "Assigned polymer masses",
           "bgColor": [
             255,
             255,
@@ -469,7 +469,7 @@
           },
           "zIndex": 0,
           "display": false,
-          "title": "Polymer ions distribution",
+          "title": "Assigned polymer masses",
           "bgColor": [
             255,
             255,
@@ -491,7 +491,7 @@
           },
           "zIndex": 0,
           "display": false,
-          "title": "Polymer ions distribution",
+          "title": "Assigned polymer masses",
           "bgColor": [
             255,
             255,
@@ -513,7 +513,7 @@
           },
           "zIndex": 0,
           "display": false,
-          "title": "Polymer ions distribution",
+          "title": "Assigned polymer masses",
           "bgColor": [
             255,
             255,
@@ -535,7 +535,7 @@
           },
           "zIndex": 0,
           "display": false,
-          "title": "Polymer ions distribution",
+          "title": "Assigned polymer masses",
           "bgColor": [
             255,
             255,
@@ -557,7 +557,7 @@
           },
           "zIndex": 0,
           "display": true,
-          "title": "Polymer ions distribution",
+          "title": "Assigned polymer masses",
           "bgColor": [
             255,
             255,
@@ -579,7 +579,7 @@
           },
           "zIndex": 0,
           "display": false,
-          "title": "Polymer ions distribution",
+          "title": "Assigned polymer masses",
           "bgColor": [
             255,
             255,
@@ -601,7 +601,7 @@
           },
           "zIndex": 0,
           "display": false,
-          "title": "Polymer ions distribution",
+          "title": "Assigned polymer masses",
           "bgColor": [
             255,
             255,
@@ -623,7 +623,7 @@
           },
           "zIndex": 0,
           "display": false,
-          "title": "Polymer ions distribution",
+          "title": "Assigned polymer masses",
           "bgColor": [
             255,
             255,
@@ -645,7 +645,7 @@
           },
           "zIndex": 0,
           "display": false,
-          "title": "Polymer ions distribution",
+          "title": "Assigned polymer masses",
           "bgColor": [
             255,
             255,
@@ -667,7 +667,7 @@
           },
           "zIndex": 0,
           "display": false,
-          "title": "Polymer ions distribution",
+          "title": "Assigned polymer masses",
           "bgColor": [
             255,
             255,
@@ -689,7 +689,7 @@
           },
           "zIndex": 0,
           "display": false,
-          "title": "Polymer ions distribution",
+          "title": "Assigned polymer masses",
           "bgColor": [
             255,
             255,
@@ -711,7 +711,7 @@
           },
           "zIndex": 0,
           "display": false,
-          "title": "Polymer ions distribution",
+          "title": "Assigned polymer masses",
           "bgColor": [
             255,
             255,
@@ -733,7 +733,7 @@
           },
           "zIndex": 0,
           "display": false,
-          "title": "Polymer ions distribution",
+          "title": "Assigned polymer masses",
           "bgColor": [
             255,
             255,
@@ -755,7 +755,7 @@
       "actions_in": [
         {}
       ],
-      "title": "Polymer ions distribution",
+      "title": "Assigned polymer masses",
       "vars_out": [
         {
           "event": "onHover",
@@ -880,6 +880,9 @@
                         "track"
                       ]
                     ],
+                    "trackingAxis": [
+                      "x"
+                    ],
                     "selectScatter": [
                       []
                     ],
@@ -887,9 +890,6 @@
                       [
                         "yes"
                       ]
-                    ],
-                    "trackingAxis": [
-                      null
                     ]
                   }
                 ]
@@ -974,7 +974,9 @@
                 "series": [
                   {
                     "overflow": [
-                      []
+                      [
+                        "overflowY"
+                      ]
                     ],
                     "stackVerticalSpacing": [
                       0
@@ -3020,7 +3022,7 @@
           ]
         }
       ],
-      "title": "Analysis preferences",
+      "title": "",
       "zindex": 2
     },
     {
@@ -3061,7 +3063,7 @@
                 2000
               ],
               "script": [
-                "<style>\n    #twigForm .addRow {\n        color: green;\n        font-weight: bold;\n        font-size: 12px;\n        padding: .4em .6em;\n    }\n    #twigForm .removeRow {\n        color: red;\n        font-weight: bold;\n        font-size: 12px;\n        padding: .4em .8em;\n    }\n    #twigForm .selector {\n        font-size: 1.5em;\n        color: maroon;\n        font-weight: bold;\n    } \n    #twigForm .selector input[type=radio]  {\n        height: 20px;\n\t    width: 20px;\n    }\n    #twigForm h1,#twigForm h2 {\n        padding-top:20px;\n        padding-bottom:10px;\n    }\n    #twigForm th {\n        vertical-align: top;\n        text-align: left;\n        font-size: 1.2em;\n    }\n    #twigForm td {\n        vertical-align: top;\n    }\n    #twigForm>table>tbody>tr>td, #emForm tr>th {\n      padding-bottom: 0.2em;\n    }\n    #twigForm input[type=number] {\n        width: 50px;\n    }\n    #twigForm i {\n        font-size: 0.8em;\n        font-style: italic;\n    }\n</style>\n<form>\n    <div id='twigForm'>\n    <h1>\n        Polymer mass spectra analyser\n    </h1>\n\n<table>\n    <tr>\n        <th>Ionizations</th>\n        <td>\n            <input type=\"text\" name=\"ionizations\" size=60 placeholder=\"H+, (H+)2, Na+\"><br>\n            <i>Comma separated list of way to charge the molecule. ie (H+)2,(H+),(+),(H+)-5</i>\n        </td>\n    </tr>\n    <tr>\n        <th>𝛂 end group</th>\n        <td>\n            <input type=\"text\" name=\"terminalA\" size=60 placeholder=\"C4H8, H\"><br>\n            <i>Comma separated list of allowed end groups</i>\n        </td>\n    </tr>\n    <tr>\n        <th>𝛚 end group</th>\n        <td>\n            <input type=\"text\" name=\"terminalB\" size=60 placeholder=\"C4H8, CH3\"><br>\n            <i>Comma separated list of allowed end groups</i>\n        </td>\n    </tr>\n\n    <tr>\n        <th colspan=2>List of monomers</th>\n    </tr>\n    <tr>\n        <td colspan=2>\n            <table>\n                <tr>\n                    <th></th>\n                    <th></th>\n                    <th></th>\n                    <th>Description</th>\n                    <th>MF</th>\n                    <th>EM</th>\n                    <th>Min</th>\n                    <th>Max</th>\n                    <th>Color</th>\n                </tr>\n                <tr data-repeat='parts'>\n                    <td>\n                        <input type='text' size=3 readonly data-field='key' tabindex=\"-1\">\n                    </td>\n                    <td>\n                        <input type='text' size=15 data-field='description'>\n                    </td>\n                    <td>\n                        <input type='text' size=10 data-field='mf'>\n                    </td>\n                    <td>\n                        <input type='text' size=15 readonly data-field='em' tabindex=\"-1\">\n                    </td>\n                    <td>\n                        <input type='text' size=5 data-field='min'>\n                    </td>\n                    <td>\n                        <input type='text' size=5 data-field='max'>\n                    </td>\n                    <td>\n                        <input type='color' data-field='color' tabindex=\"-1\">\n                    </td>\n                </tr>\n            </table>\n        </td>\n    </tr>\n    <tr>\n        <th nowrap>\n            MF Filters\n        </th>\n        <td>\n            Results can be filtered using many criteria<br>\n            <span onclick=\"toggle(this);\">▶</span>\n            <div style=\"display: none\">\n                <table>\n                    <tr>\n                        <td>Charge: </td>\n                        <td>\n                            Min: <input type=\"number\" name=\"filter.minCharge\"> - \n                            Max: <input type=\"number\" name=\"filter.maxCharge\">\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Range of m/z: </td>\n                        <td>\n                            Min: <input type=\"number\" name=\"filter.minMSEM\"> - \n                            Max: <input type=\"number\" name=\"filter.maxMSEM\">\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Unsaturation: </td>\n                        <td>\n                            Min: <input type=\"number\" name=\"filter.unsaturation.min\"> - \n                            Max: <input type=\"number\" name=\"filter.unsaturation.max\"><br>\n                            Integer: <input type=\"checkbox\" name=\"filter.unsaturation.onlyInteger\"> - \n                            non-integer: <input type=\"checkbox\" name=\"filter.unsaturation.onlyNonInteger\">\n                        </td>\n                    </tr>\n                </table>\n            </div>\n        </td>\n    </tr>\n    <tr>\n        <th nowrap>\n            Mass Filters\n        </th>\n        <td>\n            Results can be filtered based on presence of peaks in mass spectrum<br>\n            <span onclick=\"toggle(this);\">▶</span>\n            <div style=\"display: none\">\n                <table>\n                    <tr>\n                        <td>Threshold (0 to 1): </td>\n                        <td>\n                            <input type=\"number\" name=\"mass.threshold\" min=\"0\" max=\"1\" step=\"0.000001\"><br>\n                            <i>\n                                Minimal height of peaks compare to base peak (value between 0 and 1).\n                                If the value is 0, the mass filter will be completely ignored.\n                            </i>\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Precision (ppm): </td>\n                        <td>\n                            <input type=\"number\" name=\"mass.precision\">\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Minimum similarity: </td>\n                        <td>\n                            <b>Similarity calculation is only done if the minimum similarity is over 0\n                            as well as the minimal threshold height</b><br>\n                            <input type=\"text\" name=\"mass.minSimilarity\" size=\"6\">\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Width: </td>\n                        <td>\n                            Define the way peaks are compared<br>\n                            Bottom: <input type=\"text\" name=\"mass.similarity.widthBottom\" size=\"10\"> -\n                            Top: <input type=\"text\" name=\"mass.similarity.widthTop\" size=\"10\"><br>\n                            You can as well provide a function that calculates top / bottom depending m/z.\n                            If defined it will superseed the parameters from/to.<br>\n                            <textarea name=\"mass.similarity.widthFunction\" cols=40 rows=2 placeholder=\"return { bottom: 0.01 + mass / 8000, top: 0.01 + mass / 8000 / 2 };\"></textarea>\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Zone:</td>\n                        <td>\n                            Define the zone used for comparison based on monoisotopic mass<br>\n                            Low: <input type=\"text\" name=\"mass.similarity.zone.low\" size=\"10\"> -\n                            High: <input type=\"text\" name=\"mass.similarity.zone.high\" size=\"10\"><br>\n                            Comparison method: <select name=\"mass.similarity.common\">\n                                <option value=\"full\">All peaks in zone</option>\n                                <option value=\"first\">Experimental peaks</option>\n                                <option value=\"second\">Theoretical peaks</option>\n                                <option value=\"both\">Common peaks in both spectra</option>\n                            </select>\n                        </td>\n                    </tr>\n                </table>\n            </div>\n        </td>\n    </tr>\n</table>\n</form>\n</div>\n \n<script>\n    require(['src/util/color'], function(Color) {\n        let colors=Color.getDistinctColors(8).map( (color) => {\n            return '#'+\n                color[0].toString(16).padStart(2,'0') +\n                color[1].toString(16).padStart(2,'0') +\n                color[2].toString(16).padStart(2,'0');\n        });\n        window.DistinctColors=colors;\n    });\n    document.getElementById('twigForm').addEventListener('input', function (evt) {\n    if (evt.target.name.match(/^parts\\.\\d+\\./)) {\n        let name=evt.target.name.replace(/\\.[a-z]+$/,\".em\");\n        let colorname=evt.target.name.replace(/\\.[a-z]+$/,\".color\");\n        let mfname=evt.target.name.replace(/\\.[a-z]+$/,\".mf\");\n        let mf=$('[name=\"'+mfname+'\"]').val();\n        try {\n            let em = (new MolecularFormula.MF(mf)).getInfo().monoisotopicMass;\n            $('[name=\"'+name+'\"]').val(em.toFixed(5));\n        } catch(e) {\n            console.log(e);\n        };\n        let currentColor=$('[name=\"'+colorname+'\"]').val();\n        if (currentColor===\"#000000\") {\n            let index=name.replace(/^.*\\.(.*)\\..*/,'$1');\n            $('[name=\"'+colorname+'\"]').val(window.DistinctColors[index]);\n        }\n        let min=evt.target.name.replace(\"mf\",\"min\");\n        if ($('[name=\"'+min+'\"]').val()===\"\") $('[name=\"'+min+'\"]').val(0);\n        let max=evt.target.name.replace(\"mf\",\"max\");\n        if ($('[name=\"'+max+'\"]').val()===\"\") $('[name=\"'+max+'\"]').val(100);\n    }\n    let labels=$('[name*=\".key\"]').sort( entry => entry.name );\n    for (let i=0; i<labels.length; i++) {\n        let label=labels[i];\n        label.value=String.fromCharCode(65+i);\n    }\n})\n \n    function toggle(element) {\n        let nextStyle=element.nextElementSibling.style\n        if (nextStyle.display===\"none\") {\n            nextStyle.display = \"block\";\n            element.innerHTML='▼';\n        } else {\n            nextStyle.display = \"none\";\n            element.innerHTML='▶';\n        }\n    }\n    \n</script>\n\n<script>\n    require(['vh/util/twigAdvancedForm'], function(AF) {\n        AF('twigForm', {debug:false});\n    });\n</script>\n\n\n"
+                "<style>\n    #twigForm .addRow {\n        color: green;\n        font-weight: bold;\n        font-size: 12px;\n        padding: .4em .6em;\n    }\n    #twigForm .removeRow {\n        color: red;\n        font-weight: bold;\n        font-size: 12px;\n        padding: .4em .8em;\n    }\n    #twigForm .selector {\n        font-size: 1.5em;\n        color: maroon;\n        font-weight: bold;\n    } \n    #twigForm .selector input[type=radio]  {\n        height: 20px;\n\t    width: 20px;\n    }\n    #twigForm h1,#twigForm h2 {\n        padding-top:20px;\n        padding-bottom:10px;\n    }\n    #twigForm th {\n        vertical-align: top;\n        text-align: left;\n        font-size: 1.2em;\n    }\n    #twigForm td {\n        vertical-align: top;\n    }\n    #twigForm>table>tbody>tr>td, #emForm tr>th {\n      padding-bottom: 0.2em;\n    }\n    #twigForm input[type=number] {\n        width: 50px;\n    }\n    #twigForm i {\n        font-size: 0.8em;\n        font-style: italic;\n    }\n</style>\n<form>\n    <div id='twigForm'>\n    <h1>\n        Polymer mass spectra analyser\n    </h1>\n\n<table>\n    <tr>\n        <th>Ionizations</th>\n        <td>\n            <input type=\"text\" name=\"ionizations\" size=60 placeholder=\"H+, (H+)2, Na+\"><br>\n            <i>Comma separated list of way to charge the molecule. ie (H+)2,(H+),(+),(H+)-5</i>\n        </td>\n    </tr>\n    <tr>\n        <th>𝛂 end group</th>\n        <td>\n            <input type=\"text\" name=\"terminalA\" size=60 placeholder=\"C4H8, H\"><br>\n            <i>Comma separated list of allowed end groups</i>\n        </td>\n    </tr>\n    <tr>\n        <th>𝛚 end group</th>\n        <td>\n            <input type=\"text\" name=\"terminalB\" size=60 placeholder=\"C4H8, CH3\"><br>\n            <i>Comma separated list of allowed end groups</i>\n        </td>\n    </tr>\n\n    <tr>\n        <th colspan=2>List of monomers</th>\n    </tr>\n    <tr>\n        <td colspan=2>\n            <table>\n                <tr>\n                    <th></th>\n                    <th></th>\n                    <th></th>\n                    <th>Description</th>\n                    <th>MF</th>\n                    <th>EM</th>\n                    <th>Min</th>\n                    <th>Max</th>\n                    <th>Color</th>\n                </tr>\n                <tr data-repeat='parts'>\n                    <td>\n                        <input type='text' size=3 readonly data-field='key' tabindex=\"-1\">\n                    </td>\n                    <td>\n                        <input type='text' size=15 data-field='description'>\n                    </td>\n                    <td>\n                        <input type='text' size=10 data-field='mf'>\n                    </td>\n                    <td>\n                        <input type='text' size=15 readonly data-field='em' tabindex=\"-1\">\n                    </td>\n                    <td>\n                        <input type='text' size=5 data-field='min'>\n                    </td>\n                    <td>\n                        <input type='text' size=5 data-field='max'>\n                    </td>\n                    <td>\n                        <input type='color' data-field='color' tabindex=\"-1\">\n                    </td>\n                </tr>\n            </table>\n        </td>\n    </tr>\n    <tr>\n        <th nowrap>\n            MF Filters\n        </th>\n        <td>\n            Results can be filtered using many criteria<br>\n            <span onclick=\"toggle(this);\">▶</span>\n            <div style=\"display: none\">\n                <table>\n                    <tr>\n                        <td>Charge: </td>\n                        <td>\n                            Min: <input type=\"number\" name=\"filter.minCharge\"> - \n                            Max: <input type=\"number\" name=\"filter.maxCharge\">\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Range of m/z: </td>\n                        <td>\n                            Min: <input type=\"number\" name=\"filter.minMSEM\"> - \n                            Max: <input type=\"number\" name=\"filter.maxMSEM\">\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Unsaturation: </td>\n                        <td>\n                            Min: <input type=\"number\" name=\"filter.unsaturation.min\"> - \n                            Max: <input type=\"number\" name=\"filter.unsaturation.max\"><br>\n                            Integer: <input type=\"checkbox\" name=\"filter.unsaturation.onlyInteger\"> - \n                            non-integer: <input type=\"checkbox\" name=\"filter.unsaturation.onlyNonInteger\">\n                        </td>\n                    </tr>\n                </table>\n            </div>\n        </td>\n    </tr>\n    <tr>\n        <th nowrap>\n            Mass Filters\n        </th>\n        <td>\n            Results can be filtered based on presence of peaks in mass spectrum<br>\n            <span onclick=\"toggle(this);\">▶</span>\n            <div style=\"display: none\">\n                <table>\n                    <tr>\n                        <td>Threshold (0 to 100): </td>\n                        <td>\n                            <input type=\"number\" name=\"mass.threshold\" min=\"0\" max=\"100\" step=\"0.000001\"><br>\n                            <i>\n                                Minimal height of peaks compare to base peak (value between 0 and 100).\n                                If the value is 0, the mass filter will be completely ignored.\n                            </i>\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Precision (ppm): </td>\n                        <td>\n                            <input type=\"number\" name=\"mass.precision\">\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Minimum similarity: </td>\n                        <td>\n                            <b>Similarity calculation is only done if the minimum similarity is over 0\n                            as well as the minimal threshold height</b><br>\n                            <input type=\"text\" name=\"mass.minSimilarity\" size=\"6\"> %\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Width: </td>\n                        <td>\n                            Define the way peaks are compared<br>\n                            Bottom: <input type=\"text\" name=\"mass.similarity.widthBottom\" size=\"10\"> -\n                            Top: <input type=\"text\" name=\"mass.similarity.widthTop\" size=\"10\"><br>\n                            You can as well provide a function that calculates top / bottom depending m/z.\n                            If defined it will superseed the parameters from/to.<br>\n                            <textarea name=\"mass.similarity.widthFunction\" cols=40 rows=2 placeholder=\"return { bottom: 0.01 + mass / 8000, top: 0.01 + mass / 8000 / 2 };\"></textarea>\n                        </td>\n                    </tr>\n                    <tr>\n                        <td>Zone:</td>\n                        <td>\n                            Define the zone used for comparison based on monoisotopic mass<br>\n                            Low: <input type=\"text\" name=\"mass.similarity.zone.low\" size=\"10\"> -\n                            High: <input type=\"text\" name=\"mass.similarity.zone.high\" size=\"10\"><br>\n                            Comparison method: <select name=\"mass.similarity.common\">\n                                <option value=\"full\">All peaks in zone</option>\n                                <option value=\"first\">Experimental peaks</option>\n                                <option value=\"second\">Theoretical peaks</option>\n                                <option value=\"both\">Common peaks in both spectra</option>\n                            </select>\n                        </td>\n                    </tr>\n                </table>\n            </div>\n        </td>\n    </tr>\n</table>\n</form>\n</div>\n \n<script>\n    require(['src/util/color'], function(Color) {\n        let colors=Color.getDistinctColors(8).map( (color) => {\n            return '#'+\n                color[0].toString(16).padStart(2,'0') +\n                color[1].toString(16).padStart(2,'0') +\n                color[2].toString(16).padStart(2,'0');\n        });\n        window.DistinctColors=colors;\n    });\n    document.getElementById('twigForm').addEventListener('input', function (evt) {\n    if (evt.target.name.match(/^parts\\.\\d+\\./)) {\n        let name=evt.target.name.replace(/\\.[a-z]+$/,\".em\");\n        let colorname=evt.target.name.replace(/\\.[a-z]+$/,\".color\");\n        let mfname=evt.target.name.replace(/\\.[a-z]+$/,\".mf\");\n        let mf=$('[name=\"'+mfname+'\"]').val();\n        try {\n            let em = (new MolecularFormula.MF(mf)).getInfo().monoisotopicMass;\n            $('[name=\"'+name+'\"]').val(em.toFixed(5));\n        } catch(e) {\n            console.log(e);\n        };\n        let currentColor=$('[name=\"'+colorname+'\"]').val();\n        if (currentColor===\"#000000\") {\n            let index=name.replace(/^.*\\.(.*)\\..*/,'$1');\n            $('[name=\"'+colorname+'\"]').val(window.DistinctColors[index]);\n        }\n        let min=evt.target.name.replace(\"mf\",\"min\");\n        if ($('[name=\"'+min+'\"]').val()===\"\") $('[name=\"'+min+'\"]').val(0);\n        let max=evt.target.name.replace(\"mf\",\"max\");\n        if ($('[name=\"'+max+'\"]').val()===\"\") $('[name=\"'+max+'\"]').val(100);\n    }\n    let labels=$('[name*=\".key\"]').sort( entry => entry.name );\n    for (let i=0; i<labels.length; i++) {\n        let label=labels[i];\n        label.value=String.fromCharCode(65+i);\n    }\n})\n \n    function toggle(element) {\n        let nextStyle=element.nextElementSibling.style\n        if (nextStyle.display===\"none\") {\n            nextStyle.display = \"block\";\n            element.innerHTML='▼';\n        } else {\n            nextStyle.display = \"none\";\n            element.innerHTML='▶';\n        }\n    }\n    \n</script>\n\n<script>\n    require(['vh/util/twigAdvancedForm'], function(AF) {\n        AF('twigForm', {debug:false});\n    });\n</script>\n\n\n"
               ]
             }
           ],
@@ -4496,7 +4498,7 @@
                 ]
               ],
               "script": [
-                "if (this.button) {\n    this.action={\n        name: this.button,\n        value: API.getData('experimentalRow')\n    }\n}\n\nif (this.variable) {\n    this.action={\n        name: this.variable,\n        value: {}\n    }\n}\n\nconst CouchAttachments=await API.require('src/util/couchdbAttachments');\nconst cdb = new CouchAttachments('https://couch.cheminfo.org/cheminfo-public/230d2530cee8782b3cb63dc4e25931d9');\n\nswitch (this.action.name) {\n    case 'selectExperimentalRow': // reloading preferences for some examples\n        console.log(this.action.value);\n        if (! this.action.value.preferences) return;\n        let preferences=API.getData('preferences');\n        for (let key of Object.keys(preferences)) {\n            preferences[key]=undefined;\n        }\n        for (let key of Object.keys(this.action.value.preferences)) {\n            console.log(key,this.action.value.preferences[key])\n            preferences[key]=this.action.value.preferences[key];\n        }\n        preferences.triggerChange();\n        setTimeout( () => {API.getData('formTemplate').triggerChange();},10);\n        API.getData('templateKendrick').triggerChange();\n        break;\n    case 'LoadDemos':\n        loadDemos();\n        break;\n    case 'SaveDemoPreferences':\n        let value=JSON.parse(JSON.stringify(this.action.value));\n        value.preferences=API.getData('preferences');\n        value.jcamp=undefined;\n        await cdb.upload({\n            data: JSON.stringify(value),\n            name: 'upload/'+value.filename+'.json',\n            contentType: 'application/json'\n        });\n        console.log(this.action);\n        break;\n}\n\nasync function loadDemos() {\n    let files=(await cdb.list()).filter( entry => entry.filename.match(/^upload/));\n    files.forEach( file => {\n        file.code=file.filename.replace(/.*\\/(.*)\\..*/,'$1');\n        file.extension=file.filename.replace(/.*\\.(.*)/,'$1');\n         console.log(file.code)\n    });\n    files=files.filter( file => file.extension.match(/jdx|txt|json/));\n   \n    files.sort( (a,b) => (a.extension==='json') ? 1 : -1);\n    const entries={};\n    // 3 kind of files: .txt, .jdx and .json\n    // .json will contain meta information as well as preferences\n    // we need to group them !\n    \n    files.forEach( async file => {\n        switch (file.extension) {\n            case 'jdx':\n                entries[file.code]={\n                    filename: file.code,\n                    jcamp: {\n                        filename: 'spectra/mass/'+file.code,\n                        dUrl: file.url,\n                        data: {\n                             type: 'jcamp',\n                             url: file.url\n                        }   \n                    }\n                }\n                break;\n            case 'txt':\n                entries[file.code]={\n                    filename: file.code,\n                    text: {\n                        filename: 'spectra/mass/'+file.code,\n                        dUrl: file.url,\n                        data: {\n                             type: 'text',\n                             url: file.url\n                        }   \n                    }\n                }\n                break;\n            case 'json':\n                if (! entries[file.code]) return;\n                let content=await cdb.get(file.filename);\n                console.log(content);\n                Object.assign( entries[file.code], content );\n                break;\n        }\n    })\n    \n//    let mass=Object.keys(entries).map( key => entries[key]);\n    let mass = API.getData('mass');\n    mass.splice(0);\n    console.log(mass);\n    Object.keys(entries).forEach( key => mass.push(entries[key]));\n    mass.triggerChange();\n    \n}\n\n\nreturn;\n\n\nvar content = await c.get('upload/polystyrene-homopolymer.jdx');\nAPI.createData('droppedMS', {\n    file:[\n        {content, filename: 'polystyrene-homopolymer.jdx'}\n    ]}\n);\n\nvar preferences=API.getData(\"preferences\");\n\nObject.assign(preferences, {\n    \"ionizations\": \"Ag+\",\n    \"terminalA\": \"C4H9\",\n    \"terminalB\": \"H\",\n    \"parts\": [\n        {\n          \"key\": \"A\",\n          \"mf\": \"C8H8\",\n          \"em\": \"104.06260\",\n          \"min\": \"0\",\n          \"max\": \"100\",\n          \"color\": \"#e60000\"\n        }\n    ],\n    \"filter\": {\n        \"unsaturation\": {\n          \"onlyInteger\": false,\n          \"onlyNonInteger\": false\n        }\n    },\n    \"mass\": {\n        \"threshold\": 0.001,\n        \"precision\": 20,\n        \"similarity\": {\n          \"widthBottom\": \"0.05\",\n          \"widthTop\": \"0.025\",\n          \"widthFunction\": \"\",\n          \"zone\": {\n            \"low\": \"-0.5\",\n            \"high\": \"2.5\"\n          },\n          \"common\": \"second\"\n        },\n        \"minSimilarity\": \"0.8\"\n    },\n});\n\npreferences.triggerChange();\nAPI.getData('formTemplate').triggerChange(); // hack for force redraw of table\n\n\n\n"
+                "if (this.button) {\n    this.action={\n        name: this.button,\n        value: API.getData('experimentalRow')\n    }\n}\n\nif (this.variable) {\n    this.action={\n        name: this.variable,\n        value: {}\n    }\n}\n\nconst CouchAttachments=await API.require('src/util/couchdbAttachments');\nlet cdb = new CouchAttachments('https://couch.cheminfo.org/cheminfo-public/230d2530cee8782b3cb63dc4e25931d9');\n\nswitch (this.action.name) {\n    case 'selectExperimentalRow': // reloading preferences for some examples\n        if (! this.action.value.preferences) {\n            API.getData('title').setValue('');\n            return;\n        }\n        console.log('FOUND prefs')\n        let preferences=API.getData('preferences');\n        for (let key of Object.keys(preferences)) {\n            preferences[key]=undefined;\n        }\n        for (let key of Object.keys(this.action.value.preferences)) {\n            console.log(key,this.action.value.preferences[key])\n            preferences[key]=this.action.value.preferences[key];\n        }\n        preferences.triggerChange();\n        setTimeout( () => {API.getData('formTemplate').triggerChange();},10);\n        API.getData('templateKendrick').triggerChange();\n        API.getData('title').setValue(this.action.value.title || '')\n        break;\n    case 'LoadDemos':\n        loadDemos();\n        break;\n    case 'SaveDemoPreferences':\n        cdb = new CouchAttachments(); // Saving must be 'local'\n        let value=JSON.parse(JSON.stringify(this.action.value));\n        value.preferences=API.getData('preferences');\n        value.title=API.getData('title');\n        value.jcamp=undefined;\n        value.text=undefined;\n        await cdb.upload({\n            data: JSON.stringify(value),\n            name: 'upload/'+value.filename+'.json',\n            contentType: 'application/json'\n        });\n        console.log(this.action);\n        break;\n}\n\nasync function loadDemos() {\n    let files=(await cdb.list()).filter( entry => entry.filename.match(/^upload/));\n    files.forEach( file => {\n        file.code=file.filename.replace(/.*\\/(.*)\\..*/,'$1');\n        file.extension=file.filename.replace(/.*\\.(.*)/,'$1');\n         console.log(file)\n    });\n    files=files.filter( file => file.extension.match(/jdx|txt|json/));\n   \n    files.sort( (a,b) => (a.extension==='json') ? 1 : -1);\n    const entries={};\n    // 3 kind of files: .txt, .jdx and .json\n    // .json will contain meta information as well as preferences\n    // we need to group them !\n    \n    files.forEach( async file => {\n        switch (file.extension) {\n            case 'jdx':\n                entries[file.code]={\n                    filename: file.code,\n                    jcamp: {\n                        filename: 'spectra/mass/'+file.code,\n                        dUrl: file.url,\n                        data: {\n                             type: 'jcamp',\n                             url: file.url\n                        }   \n                    }\n                }\n                break;\n            case 'txt':\n                entries[file.code]={\n                    filename: file.code,\n                    text: {\n                        filename: 'spectra/mass/'+file.code,\n                        dUrl: file.url,\n                        data: {\n                             type: 'text',\n                             url: file.url\n                        }   \n                    }\n                }\n                break;\n            case 'json':\n                console.log(file.code, entries[file.code])\n                if (! entries[file.code]) return;\n                let content=await cdb.get(file.filename);\n                console.log(content);\n                Object.assign( entries[file.code], content );\n                break;\n        }\n    })\n    \n//    let mass=Object.keys(entries).map( key => entries[key]);\n    let mass = API.getData('mass');\n    mass.splice(0);\n    console.log(mass);\n    Object.keys(entries).forEach( key => mass.push(entries[key]));\n    mass.triggerChange();\n    \n}\n\n\nreturn;\n\n\nvar content = await c.get('upload/polystyrene-homopolymer.jdx');\nAPI.createData('droppedMS', {\n    file:[\n        {content, filename: 'polystyrene-homopolymer.jdx'}\n    ]}\n);\n\nvar preferences=API.getData(\"preferences\");\n\nObject.assign(preferences, {\n    \"ionizations\": \"Ag+\",\n    \"terminalA\": \"C4H9\",\n    \"terminalB\": \"H\",\n    \"parts\": [\n        {\n          \"key\": \"A\",\n          \"mf\": \"C8H8\",\n          \"em\": \"104.06260\",\n          \"min\": \"0\",\n          \"max\": \"100\",\n          \"color\": \"#e60000\"\n        }\n    ],\n    \"filter\": {\n        \"unsaturation\": {\n          \"onlyInteger\": false,\n          \"onlyNonInteger\": false\n        }\n    },\n    \"mass\": {\n        \"threshold\": 0.001,\n        \"precision\": 20,\n        \"similarity\": {\n          \"widthBottom\": \"0.05\",\n          \"widthTop\": \"0.025\",\n          \"widthFunction\": \"\",\n          \"zone\": {\n            \"low\": \"-0.5\",\n            \"high\": \"2.5\"\n          },\n          \"common\": \"second\"\n        },\n        \"minSimilarity\": \"0.8\"\n    },\n});\n\npreferences.triggerChange();\nAPI.getData('formTemplate').triggerChange(); // hack for force redraw of table\n\n\n\n"
               ]
             }
           ],
@@ -6517,7 +6519,7 @@
           ]
         }
       },
-      "title": "Superimpose exp. spectrum",
+      "title": "",
       "toolbar": {
         "custom": [
           [
@@ -6625,7 +6627,7 @@
                 "visibility": "both",
                 "rendererOptions": "twig:\"{{text.filename|slice[13:]}}{{jcamp.filename|slice[13:]}}{{file.filename|slice[13:]}}{{txt.filename|slice[13:]}}\"",
                 "editorOptions": "",
-                "width": 118,
+                "width": 112,
                 "hideColumn": []
               },
               {
@@ -6640,7 +6642,7 @@
                 "visibility": "both",
                 "rendererOptions": "",
                 "editorOptions": "",
-                "width": 35,
+                "width": 44,
                 "hideColumn": []
               },
               {
@@ -6655,7 +6657,7 @@
                 "visibility": "both",
                 "rendererOptions": "",
                 "editorOptions": "",
-                "width": 76,
+                "width": 63,
                 "hideColumn": []
               },
               {
@@ -6670,7 +6672,7 @@
                 "visibility": "both",
                 "rendererOptions": "",
                 "editorOptions": "",
-                "width": 57,
+                "width": 56,
                 "hideColumn": []
               },
               {
@@ -6685,7 +6687,7 @@
                 "visibility": "both",
                 "rendererOptions": "",
                 "editorOptions": "",
-                "width": 66,
+                "width": 64,
                 "hideColumn": []
               },
               {
@@ -6700,7 +6702,7 @@
                 "visibility": "both",
                 "rendererOptions": "",
                 "editorOptions": "",
-                "width": 48,
+                "width": 47,
                 "hideColumn": []
               },
               {
@@ -6715,7 +6717,7 @@
                 "visibility": "both",
                 "rendererOptions": "",
                 "editorOptions": "",
-                "width": 78,
+                "width": 77,
                 "hideColumn": []
               },
               {
@@ -6731,7 +6733,7 @@
                 "visibility": "both",
                 "rendererOptions": "",
                 "editorOptions": "",
-                "width": 30,
+                "width": 31,
                 "hideColumn": []
               },
               {
@@ -6747,7 +6749,7 @@
                 "visibility": "both",
                 "rendererOptions": "",
                 "editorOptions": "",
-                "width": 30,
+                "width": 31,
                 "hideColumn": []
               }
             ]
@@ -7286,7 +7288,7 @@
           ]
         }
       ],
-      "title": "List of experimental spectra",
+      "title": "",
       "zindex": 2
     },
     {
@@ -7311,7 +7313,7 @@
                 ]
               ],
               "script": [
-                "let action=this.action.name;\nlet value=this.action.value;\nconsole.log('Execute action: ',action)\nconst emdb=API.cache('emdb');\nswitch (action) {\n    case 'ShowGroups': {\n        API.require('vh/chemistry/showMfGroupsList').then( shotMfGroupsList => shotMfGroupsList() );\n        break;\n    }\n    case 'autoPeakWidth':\n        let peaksWidth=API.cache('peaksWidth');\n        if (! peaksWidth) return;\n        \n        let fct = 'var width = '+ peaksWidth.A.toPrecision(5) + ' * mass ** '+peaksWidth.B.toPrecision(5) + ';\\n';\n        fct += 'return {bottom: error + width * 3, top: error + width}';\n        \n        let theFunction=new Function('mass',fct); // just to test test\n        \n        let preferences=API.getData('preferences');\n        preferences.mass.similarity.widthFunction=fct;\n        preferences.triggerChange();\n        break;\n    case 'zoomChanged': {\n            if (! emdb) return;\n            let currentZoom=this.action.value;\n            let previousZoom=API.cache('previousZoom') || {};\n            if (previousZoom.from===currentZoom.from && previousZoom.to===currentZoom.to) return;\n            API.cache('previousZoom',currentZoom)\n            API.doAction('updateAnnotations');\n            break;\n        }\n    case 'labelPrefsChanged':\n    case 'updateAnnotations': {\n        if (! emdb) return;\n        let experimental=emdb.experimentalSpectrum;\n        if (! experimental) return;\n        let zoom = API.cache('previousZoom')\n        \n        let labelPrefs=API.getData('preferences').resurrect().labelPrefs;\n        \n        let bestPeaks=experimental.getBestPeaks( \n            {\n                from:zoom.from,\n                to:zoom.to,\n                numberSlots:20,\n                limit: 50,\n                numberCloseSlots: 300,\n                searchMonoisotopicRatio: labelPrefs.searchMonoisotopicRatio\n            }\n        );\n        updateAnnotations(bestPeaks);\n        break;\n    }\n    case 'createSimilarityPeakWidth':\n        if (value && value.ms && value.ms.similarity) {\n            let similarity=value.ms.similarity;\n            let em=value.ms.em;\n            let annotations=[];\n            let halfBottom=value.ms.similarity.width.bottom/2;\n            let halfTop=value.ms.similarity.width.top/2;\n            annotations.push({\n                type:'rect',\n                position: [\n                    { x: em-halfTop, y: '5px' },\n                    { x: em+halfTop, y: '10px'}\n                ]\n            });\n            annotations.push({\n                type:'rect',\n                position: [\n                    { x: em-halfBottom, y: '15px' },\n                    { x: em+halfBottom, y: '20px'}\n                ]\n            });\n            API.createData('widthAnnotation', annotations);\n        }\n        break;\n    case 'clearExperimentalSpectrum': {\n        emdb.experimentalSpectrum=undefined;\n        API.createData('experimentalChart', undefined);\n        API.createData('kindAnnotations', undefined);\n        API.createData('annotations', undefined);\n        API.doAction('deselectRow', undefined);\n        API.doAction('calculate', API.getData('preferences'));\n        break;\n    }\n    case 'ResetPreferences': {\n        let preferences=API.getData('preferences');\n        preferences.resetValue();\n        break;\n    }\n    case 'clickedPeak': {\n        let preferences=API.getData('preferences');\n        let mass = value.position[0].x;\n        preferences.setChildSync(['labelPrefs','shift'], mass.toFixed(5));\n        break;\n    }\n    case 'resetShift': {\n        let preferences=API.getData('preferences');\n        preferences.setChildSync(['labelPrefs','shift'], 0);\n\n    }\n}\n\n\nfunction updateAnnotations(bestPeaks) {\n    console.time('updateAnnotations');\n    if (! emdb) return;\n    let experimental=emdb.experimentalSpectrum;\n    if (! experimental) return;\n    let preferences=API.getData('preferences').resurrect();\n    let labelPrefs=preferences.labelPrefs;\n\n    let prefs={};\n\n    // if we are relativeMass \n    prefs.shift=labelPrefs.shift ? -labelPrefs.shift:0;\n    prefs.showMF=labelPrefs.showMF;\n    prefs.mfColors=labelPrefs.mfColors;\n    prefs.mfPrefs={\n        maxIterations: 10000000,\n        precision: labelPrefs.mfColors.reduce( (a,b)=>Math.max(a,b.limit), 0),\n        minCharge: Number.MIN_SAFE_INTEGER,\n        maxCharge: Number.MAX_SAFE_INTEGER,\n        allowNeutral: true,\n        ionizations:preferences.ionizations,\n        ranges: labelPrefs.ranges,\n        unsaturation: {\n            \"min\": -1,\n            \"max\": 999,\n            \"onlyInteger\": false,\n            \"onlyNonInteger\": false\n        }\n    };\n\n    API.createData('annotations', \n        experimental.JsGraph.getPeaksAnnotation(bestPeaks, prefs)\n    );\n    console.timeEnd('updateAnnotations');\n}\n\n"
+                "let action=this.action.name;\nlet value=this.action.value;\nconsole.log('Execute action: ',action)\nconst emdb=API.cache('emdb');\nswitch (action) {\n    case 'ShowGroups': {\n        API.require('vh/chemistry/showMfGroupsList').then( shotMfGroupsList => shotMfGroupsList() );\n        break;\n    }\n    case 'autoPeakWidth':\n        let peaksWidth=API.cache('peaksWidth');\n        if (! peaksWidth) return;\n        \n        let fct = 'var width = '+ peaksWidth.A.toPrecision(5) + ' * mass ** '+peaksWidth.B.toPrecision(5) + ';\\n';\n        fct += 'return {bottom: error + width * 3, top: error + width}';\n        \n        let theFunction=new Function('mass',fct); // just to test test\n        \n        let preferences=API.getData('preferences');\n        preferences.mass.similarity.widthFunction=fct;\n        preferences.triggerChange();\n        break;\n    case 'zoomChanged': {\n            if (! emdb) return;\n            let currentZoom=this.action.value;\n            let previousZoom=API.cache('previousZoom') || {};\n            if (previousZoom.from===currentZoom.from && previousZoom.to===currentZoom.to) return;\n            API.cache('previousZoom',currentZoom)\n            API.doAction('updateAnnotations');\n            break;\n        }\n    case 'labelPrefsChanged':\n    case 'updateAnnotations': {\n        if (! emdb) return;\n        let experimental=emdb.experimentalSpectrum;\n        if (! experimental) return;\n        let zoom = API.cache('previousZoom')\n        \n        let labelPrefs=API.getData('preferences').resurrect().labelPrefs;\n        \n        let bestPeaks=experimental.getBestPeaks( \n            {\n                from:zoom.from,\n                to:zoom.to,\n                numberSlots:20,\n                limit: 50,\n                numberCloseSlots: 300,\n                searchMonoisotopicRatio: labelPrefs.searchMonoisotopicRatio\n            }\n        );\n        updateAnnotations(bestPeaks);\n        break;\n    }\n    case 'createSimilarityPeakWidth':\n        if (value && value.ms && value.ms.similarity) {\n            let similarity=value.ms.similarity;\n            let em=value.ms.em;\n            let annotations=[];\n            let halfBottom=value.ms.similarity.width.bottom/2;\n            let halfTop=value.ms.similarity.width.top/2;\n            annotations.push({\n                type:'rect',\n                position: [\n                    { x: em-halfTop, y: '5px' },\n                    { x: em+halfTop, y: '10px'}\n                ]\n            });\n            annotations.push({\n                type:'rect',\n                position: [\n                    { x: em-halfBottom, y: '15px' },\n                    { x: em+halfBottom, y: '20px'}\n                ]\n            });\n            API.createData('widthAnnotation', annotations);\n        }\n        break;\n    case 'clearExperimentalSpectrum': {\n        emdb.experimentalSpectrum=undefined;\n        API.createData('experimentalChart', undefined);\n        API.createData('kindAnnotations', undefined);\n        API.createData('annotations', undefined);\n        API.doAction('deselectRow', undefined);\n        API.doAction('calculate', API.getData('preferences'));\n        break;\n    }\n    case 'ResetPreferences': {\n        let preferences=API.getData('preferences');\n        preferences.resetValue();\n        break;\n    }\n    case 'clickedPeak': {\n        let preferences=API.getData('preferences');\n        let mass = value.position[0].x;\n        preferences.setChildSync(['labelPrefs','shift'], mass.toFixed(5));\n        break;\n    }\n    case 'resetShift': {\n        let preferences=API.getData('preferences');\n        preferences.setChildSync(['labelPrefs','shift'], 0);\n\n    }\n}\n\n\nfunction updateAnnotations(bestPeaks) {\n    console.time('updateAnnotations');\n    if (! emdb) return;\n    let experimental=emdb.experimentalSpectrum;\n    if (! experimental) return;\n    let preferences=API.getData('preferences').resurrect();\n    let labelPrefs=preferences.labelPrefs;\n\n    let prefs={};\n\n    // if we are relativeMass \n    prefs.shift=labelPrefs.shift ? -labelPrefs.shift:0;\n    prefs.numberMFs=labelPrefs.numberMFs;\n    prefs.mfColors=labelPrefs.mfColors;\n    prefs.mfPrefs={\n        maxIterations: 10000000,\n        precision: labelPrefs.mfColors.reduce( (a,b)=>Math.max(a,b.limit), 0),\n        minCharge: Number.MIN_SAFE_INTEGER,\n        maxCharge: Number.MAX_SAFE_INTEGER,\n        allowNeutral: true,\n        ionizations:preferences.ionizations,\n        ranges: labelPrefs.ranges,\n        unsaturation: {\n            \"min\": -1,\n            \"max\": 999,\n            \"onlyInteger\": false,\n            \"onlyNonInteger\": false\n        }\n    };\n\n    API.createData('annotations', \n        experimental.JsGraph.getPeaksAnnotation(bestPeaks, prefs)\n    );\n    console.timeEnd('updateAnnotations');\n}\n\n"
               ]
             }
           ],
@@ -7665,12 +7667,12 @@
         },
         "ExploreAdmin": {
           "position": {
-            "left": 64,
-            "top": 52
+            "left": 65,
+            "top": 43
           },
           "size": {
-            "width": 57,
-            "height": 34
+            "width": 58,
+            "height": 46
           },
           "zIndex": 0,
           "display": true,
@@ -8908,9 +8910,9 @@
                       "axis": "0",
                       "adaptTo": "0",
                       "plotcolor": [
-                        1,
-                        1,
                         255,
+                        3,
+                        1,
                         1
                       ],
                       "strokewidth": "1",
@@ -8929,9 +8931,9 @@
                       "axis": "1",
                       "adaptTo": "0",
                       "plotcolor": [
-                        255,
+                        21,
                         1,
-                        6,
+                        255,
                         0.45
                       ],
                       "strokewidth": "2",
@@ -9000,7 +9002,7 @@
           },
           "zIndex": 0,
           "display": true,
-          "title": "Similarity information: Blue (exp), Red (theor), Yellow (diff)",
+          "title": "Similarity information: Red (exp), Blue (theor), Yellow (diff)",
           "bgColor": [
             255,
             255,
@@ -9431,7 +9433,7 @@
           ]
         }
       ],
-      "title": "Similarity information: Blue (exp), Red (theor), Yellow (diff)",
+      "title": "Similarity information: Red (exp), Blue (theor), Yellow (diff)",
       "zindex": 2
     },
     {
@@ -9802,7 +9804,7 @@
             "top": 39
           },
           "size": {
-            "width": 51,
+            "width": 62,
             "height": 32
           },
           "zIndex": 0,
@@ -12182,7 +12184,7 @@
             [
               {
                 "name": "home",
-                "label": "Home",
+                "label": "Assign",
                 "hide": [],
                 "disable": []
               },
@@ -12194,7 +12196,7 @@
               },
               {
                 "name": "peaks",
-                "label": "Peaks",
+                "label": "Monitor",
                 "hide": [],
                 "disable": []
               },
@@ -13150,7 +13152,7 @@
                 []
               ],
               "template": [
-                "<h2>\n    Assigned quantity: {{rendertype(totalQuantity,{numeral:'0.00%'})}}\n</h2>\n<h2>\n    Found fragments: {{fragments.length}}\n</h2>\n"
+                "<h2>\n    Assigned quantity: {{rendertype(totalQuantity,{numeral:'0.0%'})}}\n</h2>\n<h2>\n    Number of assigned polymer chains: {{fragments.length}}\n</h2>\n"
               ],
               "modifyInForm": [
                 []
@@ -14200,483 +14202,7 @@
                 ]
               ],
               "script": [
-                "let experimentalRow=API.getData('experimentalRow');\n\n\n\nconsole.log(experimentalRow);"
-              ]
-            }
-          ],
-          "libs": [
-            [
-              {}
-            ]
-          ],
-          "buttons": [
-            [
-              {
-                "name": "button1",
-                "label": "Execute",
-                "hide": [],
-                "disable": []
-              }
-            ]
-          ]
-        }
-      },
-      "layers": {
-        "Default layer": {
-          "position": {
-            "left": 0,
-            "top": 0
-          },
-          "size": {
-            "width": 20,
-            "height": 20
-          },
-          "zIndex": 0,
-          "display": false,
-          "title": "",
-          "bgColor": [
-            255,
-            255,
-            255,
-            0
-          ],
-          "wrapper": true,
-          "created": true,
-          "name": "Default layer"
-        },
-        "Admin": {
-          "position": {
-            "left": 0,
-            "top": 0
-          },
-          "size": {
-            "width": 20,
-            "height": 20
-          },
-          "zIndex": 0,
-          "display": false,
-          "title": "",
-          "bgColor": [
-            255,
-            255,
-            255,
-            0
-          ],
-          "wrapper": true,
-          "created": true,
-          "name": "Admin"
-        },
-        "CalcualteSpectrum": {
-          "position": {
-            "left": 0,
-            "top": 0
-          },
-          "size": {
-            "width": 20,
-            "height": 20
-          },
-          "zIndex": 0,
-          "display": false,
-          "title": "",
-          "bgColor": [
-            255,
-            255,
-            255,
-            0
-          ],
-          "wrapper": true,
-          "created": true,
-          "name": "CalcualteSpectrum"
-        },
-        "Twig": {
-          "position": {
-            "left": 0,
-            "top": 0
-          },
-          "size": {
-            "width": 20,
-            "height": 20
-          },
-          "zIndex": 0,
-          "display": false,
-          "title": "",
-          "bgColor": [
-            255,
-            255,
-            255,
-            0
-          ],
-          "wrapper": true,
-          "created": true,
-          "name": "Twig"
-        },
-        "Form": {
-          "position": {
-            "left": 0,
-            "top": 0
-          },
-          "size": {
-            "width": 20,
-            "height": 20
-          },
-          "zIndex": 0,
-          "display": false,
-          "title": "",
-          "bgColor": [
-            255,
-            255,
-            255,
-            0
-          ],
-          "wrapper": true,
-          "created": true,
-          "name": "Form"
-        },
-        "LoadExample": {
-          "position": {
-            "left": 62,
-            "top": 55
-          },
-          "size": {
-            "width": 55,
-            "height": 22
-          },
-          "zIndex": 0,
-          "display": true,
-          "title": "",
-          "bgColor": [
-            255,
-            255,
-            255,
-            0
-          ],
-          "wrapper": true,
-          "created": true,
-          "name": "LoadExample"
-        },
-        "RocSample": {
-          "position": {
-            "left": 0,
-            "top": 0
-          },
-          "size": {
-            "width": 20,
-            "height": 20
-          },
-          "zIndex": 0,
-          "display": false,
-          "title": "",
-          "bgColor": [
-            255,
-            255,
-            255,
-            0
-          ],
-          "wrapper": true,
-          "created": true,
-          "name": "RocSample"
-        },
-        "PeakPicking": {
-          "position": {
-            "left": 0,
-            "top": 0
-          },
-          "size": {
-            "width": 20,
-            "height": 20
-          },
-          "zIndex": 0,
-          "display": false,
-          "title": "",
-          "bgColor": [
-            255,
-            255,
-            255,
-            0
-          ],
-          "wrapper": true,
-          "created": true,
-          "name": "PeakPicking"
-        },
-        "SaveLoadResults": {
-          "position": {
-            "left": 0,
-            "top": 0
-          },
-          "size": {
-            "width": 20,
-            "height": 20
-          },
-          "zIndex": 0,
-          "display": false,
-          "title": "",
-          "bgColor": [
-            255,
-            255,
-            255,
-            0
-          ],
-          "wrapper": true,
-          "created": true,
-          "name": "SaveLoadResults"
-        },
-        "SaveLoadResults Admin": {
-          "position": {
-            "left": 0,
-            "top": 0
-          },
-          "size": {
-            "width": 20,
-            "height": 20
-          },
-          "zIndex": 0,
-          "display": false,
-          "title": "",
-          "bgColor": [
-            255,
-            255,
-            255,
-            0
-          ],
-          "wrapper": true,
-          "created": true,
-          "name": "SaveLoadResults Admin"
-        },
-        "Calculate X shift function": {
-          "position": {
-            "left": 0,
-            "top": 0
-          },
-          "size": {
-            "width": 20,
-            "height": 20
-          },
-          "zIndex": 0,
-          "display": false,
-          "title": "",
-          "bgColor": [
-            255,
-            255,
-            255,
-            0
-          ],
-          "wrapper": true,
-          "created": true,
-          "name": "PeakPicking"
-        },
-        "KendrickAdmin": {
-          "position": {
-            "left": 0,
-            "top": 0
-          },
-          "size": {
-            "width": 20,
-            "height": 20
-          },
-          "zIndex": 0,
-          "display": false,
-          "title": "",
-          "bgColor": [
-            255,
-            255,
-            255,
-            0
-          ],
-          "wrapper": true,
-          "created": true,
-          "name": "Default layer"
-        },
-        "Kendrick": {
-          "position": {
-            "left": 0,
-            "top": 0
-          },
-          "size": {
-            "width": 20,
-            "height": 20
-          },
-          "zIndex": 0,
-          "display": false,
-          "title": "",
-          "bgColor": [
-            255,
-            255,
-            255,
-            0
-          ],
-          "wrapper": true,
-          "created": true,
-          "name": "Default layer"
-        },
-        "ReportAdmin": {
-          "position": {
-            "left": 0,
-            "top": 0
-          },
-          "size": {
-            "width": 20,
-            "height": 20
-          },
-          "zIndex": 0,
-          "display": false,
-          "title": "",
-          "bgColor": [
-            255,
-            255,
-            255,
-            0
-          ],
-          "wrapper": true,
-          "created": true,
-          "name": "Default layer"
-        },
-        "Explore": {
-          "position": {
-            "left": 0,
-            "top": 0
-          },
-          "size": {
-            "width": 20,
-            "height": 20
-          },
-          "zIndex": 0,
-          "display": false,
-          "title": "",
-          "bgColor": [
-            255,
-            255,
-            255,
-            0
-          ],
-          "wrapper": true,
-          "created": true,
-          "name": "Default layer"
-        },
-        "ExploreAdmin": {
-          "position": {
-            "left": 0,
-            "top": 0
-          },
-          "size": {
-            "width": 20,
-            "height": 20
-          },
-          "zIndex": 0,
-          "display": false,
-          "title": "",
-          "bgColor": [
-            255,
-            255,
-            255,
-            0
-          ],
-          "wrapper": true,
-          "created": true,
-          "name": "Default layer"
-        },
-        "Report": {
-          "position": {
-            "left": 0,
-            "top": 0
-          },
-          "size": {
-            "width": 20,
-            "height": 20
-          },
-          "zIndex": 0,
-          "display": false,
-          "title": "",
-          "bgColor": [
-            255,
-            255,
-            255,
-            0
-          ],
-          "wrapper": true,
-          "created": true,
-          "name": "Default layer"
-        }
-      },
-      "id": 27,
-      "vars_in": [
-        {}
-      ],
-      "actions_in": [
-        {}
-      ],
-      "vars_out": [
-        {
-          "jpath": []
-        }
-      ],
-      "actions_out": [
-        {
-          "jpath": []
-        }
-      ],
-      "toolbar": {
-        "custom": [
-          [
-            {
-              "title": "",
-              "icon": "",
-              "action": "",
-              "position": "begin",
-              "color": [
-                100,
-                100,
-                100,
-                1
-              ]
-            }
-          ]
-        ],
-        "common": [
-          {
-            "toolbar": [
-              [
-                "Open Preferences"
-              ]
-            ]
-          }
-        ]
-      },
-      "css": [
-        {
-          "fontSize": [
-            ""
-          ],
-          "fontFamily": [
-            ""
-          ]
-        }
-      ],
-      "title": "",
-      "zindex": 2
-    },
-    {
-      "url": "modules/types/client_interaction/code_executor/",
-      "configuration": {
-        "sections": {},
-        "groups": {
-          "group": [
-            {
-              "display": [
-                [
-                  "editor",
-                  "buttons"
-                ]
-              ],
-              "execOnLoad": [
-                []
-              ],
-              "asyncAwait": [
-                [
-                  "top"
-                ]
-              ],
-              "script": [
-                "if (this.action && this.action.name) {\n    this.button=this.action.name;\n}\n\nconsole.log('Analyse data: ',this.button)\n\nconst emdb=API.cache('emdb');;\nconst MolecularFormula = API.cache('MolecularFormula');\nconst IsotopicDistribution=MolecularFormula.IsotopicDistribution;\n\nconst massData = API.cache('massData');\n\nswitch (this.button) {\n    case 'loadSpectrum':\n        loadSpectrum(massData);\n        this.hideButton('calibrateAndRecalculate');\n        return;\n    case 'calculate':\n        loadSpectrum(massData);\n        break;\n    case 'calibrateAndRecalculate':\n        const shiftFunction=API.cache('shiftFunction');\n        if (! shiftFunction) {\n            API.showNotification('Unable to recalibrate the spectrum, no function available.')\n            return;\n        }\n        let x=massData.x.map( x => x-shiftFunction(x) );\n        loadSpectrum({\n            x,\n            y: massData.y\n        })\n        \n        break;\n}\n\n\nconst preferences=API.getData('preferences').resurrect();\nconst kind=preferences.sequenceKind;\n\nlet filter=JSON.parse(JSON.stringify(preferences.filter));\nif (emdb.experimentalSpectrum && preferences.mass.threshold) {\n    let peaks=emdb.experimentalSpectrum.getPeaks({threshold: preferences.mass.threshold});\n    filter.precision=preferences.mass.precision;\n    filter.targetMasses=peaks.map( peak => peak.x );\n    filter.targetIntensities=peaks.map( peak => peak.y );\n}\n\nlet similarity = preferences.mass.similarity;\n\nlet monomers=preferences.parts.map( part => '('+part.mf+')'+part.min+'-'+part.max);\n\nlet mfsArray=[];\nif (preferences.terminalA) mfsArray.push(preferences.terminalA);\nmfsArray.push(...monomers);\nif (preferences.terminalB) mfsArray.push(preferences.terminalB);\n\nemdb.fromArray(mfsArray, {\n    ionizations:preferences.ionizations,\n    filter\n});\nlet fragments=emdb.get('generated');\nif (preferences.mass.minSimilarity>0 && emdb.experimentalSpectrum) {\n   \n    if (similarity.widthFunction) {\n        similarity.widthFunction =\n            'var error = '+preferences.mass.precision+' * mass * 1e-6;\\n' + \n            similarity.widthFunction;\n    }\n   \n    fragments = emdb.searchSimilarity({\n        flatten: true,\n        minSimilarity: preferences.mass.minSimilarity,\n        filter,\n        similarity\n    });\n}\n\nfragments.sort( (a,b) => a.em-b.em );\n\nlet totalQuantity=0;\n\nlet groupedFragments=[];\nlet groupedFragment;\n\nconst sameEMcounter={};\nfragments.forEach( fragment => {\n    let em=Number(fragment.em);\n    if (! sameEMcounter[em]) {\n        groupedFragment={\n            em,\n            fragments:[],\n            quantity: 0,\n            _highlight: em,\n            mfs: {}\n        }\n        groupedFragments.push(groupedFragment);\n        sameEMcounter[em]={\n            count: 0,\n            quantity: 0\n        };\n    }\n    groupedFragment.fragments.push(fragment);\n    if (fragment.ms && fragment.ms.similarity) {\n        totalQuantity+=fragment.ms.similarity.quantity;\n        sameEMcounter[em].quantity+=fragment.ms.similarity.quantity;\n        groupedFragment.quantity+=fragment.ms.similarity.quantity;\n        groupedFragment.mfs[fragment.parts.join(\" \")]=true;\n    }\n    sameEMcounter[em].count++;\n    fragment.intensity=fragment.ms && fragment.ms.target ? fragment.ms.target.intensity : '';\n});\n\ngroupedFragments.forEach( (groupedFragment) => groupedFragment.mfs = Object.keys(groupedFragment.mfs))\n\nfragments.forEach( fragment => {\n    fragment.group=sameEMcounter[fragment.em];\n});\n\n// add highlight\nfragments.forEach( fragment => {\n    fragment._highlight=fragment.em || fragment.comment || Math.random();\n})\n\nlet entities=preferences.parts.map( part => {\n    let info=new MolecularFormula.MF(part.mf).getInfo();\n    return {\n        key: part.key,\n        color: part.color,\n        mf: part.mf,\n        query: '('+part.mf+')',\n        mw: info.mass,\n        em: info.monoisotopicMass\n    };\n});\n\n// we will use a trick to construct a type by making search replace\nfor (let fragment of fragments) {\n    fragment.type='';\n    fragment.details=[];\n    let totalUnits=0;\n    for (let part of fragment.parts) {\n        if (part) {\n            for (let entity of entities) {\n                if (part.indexOf(entity.query)===0) {\n                    let nbUnits=Number(part.replace(entity.query,''));\n                    totalUnits+=nbUnits;\n                    fragment.type+=entity.key+nbUnits;\n                    fragment.details.push({\n                        key: entity.key,\n                        color: entity.color,\n                        nbUnits\n                    })\n                }\n            }\n        }\n    }\n    fragment.totalUnits=totalUnits;\n}\n\nlet maxUnits=Math.max(...fragments.map( fragment => fragment.totalUnits));\nfor (let fragment of fragments) {\n    fragment.indicator=fragment.details.map( (detail) => {\n        return {\n          \"bgcolor\": detail.color,\n          \"size\": detail.nbUnits/maxUnits \n        }\n    });\n    fragment.indicator.push({\n        bgcolor: 'white',\n        size: (maxUnits-fragment.totalUnits)/maxUnits\n    })\n}\n\nAPI.createData('fragments', fragments);\nAPI.createData('groupedFragments', groupedFragments);\n\nAPI.createData('totalQuantity',totalQuantity);\n\nlet chargedFragments=fragments.filter(fragment => Number(fragment.ms.charge)!==0);\n\nlet isotopicDistribution=new IsotopicDistribution(chargedFragments);\nvar data=isotopicDistribution.getXY();\n\n\nvar fullSpectrum={\n    type:\"chart\",\n    value:{\n        title:\"Mass spectrum\",\n        data\n    }\n};\n\nAPI.createData(\"fullSpectrum\",fullSpectrum);\n\n\n\n\nwindow.setTimeout( () => {\n    switch (this.button) {\n        case 'calculate':\n            if (preferences.mass.minSimilarity) {\n                this.showButton('calibrateAndRecalculate'); \n            }\n            API.doAction('calculateXShiftFunction');\n            API.createData('rescaledMass','');\n            break;\n        case 'calibrateAndRecalculate':\n            API.doAction('calculateXNewShiftFunction');\n            API.createData('rescaledMass','Masses were recalibrated');\n            break;\n    }\n\n})\n\nfunction loadSpectrum(massData) {\n    if (! massData) return;\n    emdb.setExperimentalSpectrum(massData);\n    emdb.experimentalSpectrum.scaleY(100);\n    let data=emdb.experimentalSpectrum.data;\n    let totalPeaks=data.y.reduce( (previous, current) => previous+current, 0);\n    \n    let peaksWidth=emdb.experimentalSpectrum.peaksWidth();\n    API.cache('peaksWidth', peaksWidth);\n    \n    if (peaksWidth.score.r2>0) {\n        // hack because of font awesome / spectra displayer problem\n        let peaks={x:[],y:[]};\n        let length=peaksWidth.widths.x.length;\n\n        if (length>500) {\n            let step=Math.floor(length/500);\n            for (let i=0; i<length; i+=step) {\n                peaks.x.push(peaksWidth.widths.x[i]);\n                peaks.y.push(peaksWidth.widths.y[i]);\n            }\n        } else {\n            peaks=peaksWidth.widths;\n        }\n        \n        API.createData('peaksWidths', peaks);\n        API.createData('peaksWidthFit', peaksWidth.fit);\n        API.createData('peaksWidthR2', peaksWidth.score.r2);\n        API.createData('peaksWidthTex', peaksWidth.tex);\n    } else {\n        UI.showNotification('Could not calculate peaks width','warning');\n        API.createData('peaksWidths', undefined);\n        API.createData('peaksWidthFit', undefined);\n        API.createData('peaksWidthR2', undefined);\n        API.createData('peaksWidthTex', undefined);\n    }\n    \n    API.createData('experimentalChart', data);\n    API.createData('experimentalIsContinuous', emdb.experimentalSpectrum.isContinuous());\n    API.doAction('autoPeakWidth');\n    \n    window.setTimeout( () => API.doAction('fullOut','xy'), 1);\n}\n\n\n"
+                "if (this.action && this.action.name) {\n    this.button=this.action.name;\n}\n\nconsole.log('Analyse data: ',this.button)\n\nconst emdb=API.cache('emdb');;\nconst MolecularFormula = API.cache('MolecularFormula');\nconst IsotopicDistribution=MolecularFormula.IsotopicDistribution;\n\nconst massData = API.cache('massData');\n\nswitch (this.button) {\n    case 'loadSpectrum':\n        loadSpectrum(massData);\n        this.hideButton('calibrateAndRecalculate');\n        return;\n    case 'calculate':\n        loadSpectrum(massData);\n        break;\n    case 'calibrateAndRecalculate':\n        const shiftFunction=API.cache('shiftFunction');\n        if (! shiftFunction) {\n            API.showNotification('Unable to recalibrate the spectrum, no function available.')\n            return;\n        }\n        let x=massData.x.map( x => x-shiftFunction(x) );\n        loadSpectrum({\n            x,\n            y: massData.y\n        })\n        \n        break;\n}\n\n\nconst preferences=API.getData('preferences').resurrect();\nconst kind=preferences.sequenceKind;\n\nlet filter=JSON.parse(JSON.stringify(preferences.filter));\nif (emdb.experimentalSpectrum && preferences.mass.threshold) {\n    let peaks=emdb.experimentalSpectrum.getPeaks({threshold: preferences.mass.threshold/100});\n    filter.precision=preferences.mass.precision;\n    filter.targetMasses=peaks.map( peak => peak.x );\n    filter.targetIntensities=peaks.map( peak => peak.y );\n}\n\nlet similarity = preferences.mass.similarity;\n\nlet monomers=preferences.parts.map( part => '('+part.mf+')'+part.min+'-'+part.max);\n\nlet mfsArray=[];\nif (preferences.terminalA) mfsArray.push(preferences.terminalA);\nmfsArray.push(...monomers);\nif (preferences.terminalB) mfsArray.push(preferences.terminalB);\n\nemdb.fromArray(mfsArray, {\n    ionizations:preferences.ionizations,\n    filter\n});\nlet fragments=emdb.get('generated');\nif (preferences.mass.minSimilarity>0 && emdb.experimentalSpectrum) {\n   \n    if (similarity.widthFunction) {\n        similarity.widthFunction =\n            'var error = '+preferences.mass.precision+' * mass * 1e-6;\\n' + \n            similarity.widthFunction;\n    }\n   \n    fragments = emdb.searchSimilarity({\n        flatten: true,\n        minSimilarity: preferences.mass.minSimilarity / 100,\n        filter,\n        similarity\n    });\n}\n\nfragments.sort( (a,b) => a.em-b.em );\n\nlet totalQuantity=0;\n\nlet groupedFragments=[];\nlet groupedFragment;\n\nconst sameEMcounter={};\nfragments.forEach( fragment => {\n    let em=Number(fragment.em);\n    if (! sameEMcounter[em]) {\n        groupedFragment={\n            em,\n            fragments:[],\n            quantity: 0,\n            _highlight: em,\n            mfs: {}\n        }\n        groupedFragments.push(groupedFragment);\n        sameEMcounter[em]={\n            count: 0,\n            quantity: 0\n        };\n    }\n    groupedFragment.fragments.push(fragment);\n    if (fragment.ms && fragment.ms.similarity) {\n        totalQuantity+=fragment.ms.similarity.quantity;\n        sameEMcounter[em].quantity+=fragment.ms.similarity.quantity;\n        groupedFragment.quantity+=fragment.ms.similarity.quantity;\n        groupedFragment.mfs[fragment.parts.join(\" \")]=true;\n    }\n    sameEMcounter[em].count++;\n    fragment.intensity=fragment.ms && fragment.ms.target ? fragment.ms.target.intensity : '';\n});\n\ngroupedFragments.forEach( (groupedFragment) => groupedFragment.mfs = Object.keys(groupedFragment.mfs))\n\nfragments.forEach( fragment => {\n    fragment.group=sameEMcounter[fragment.em];\n});\n\n// add highlight\nfragments.forEach( fragment => {\n    fragment._highlight=fragment.em || fragment.comment || Math.random();\n})\n\nlet entities=preferences.parts.map( part => {\n    let info=new MolecularFormula.MF(part.mf).getInfo();\n    return {\n        key: part.key,\n        color: part.color,\n        mf: part.mf,\n        query: '('+part.mf+')',\n        mw: info.mass,\n        em: info.monoisotopicMass\n    };\n});\n\n// we will use a trick to construct a type by making search replace\nfor (let fragment of fragments) {\n    fragment.type='';\n    fragment.details=[];\n    let totalUnits=0;\n    for (let part of fragment.parts) {\n        if (part) {\n            for (let entity of entities) {\n                if (part.indexOf(entity.query)===0) {\n                    let nbUnits=Number(part.replace(entity.query,'')||1);\n                    totalUnits+=nbUnits;\n                    fragment.type+=entity.key+nbUnits;\n                    fragment.details.push({\n                        key: entity.key,\n                        color: entity.color,\n                        nbUnits\n                    })\n                }\n            }\n        }\n    }\n    fragment.totalUnits=totalUnits;\n}\n\nlet maxUnits=Math.max(...fragments.map( fragment => fragment.totalUnits));\nfor (let fragment of fragments) {\n    fragment.indicator=fragment.details.map( (detail) => {\n        return {\n          \"bgcolor\": detail.color,\n          \"size\": detail.nbUnits/maxUnits \n        }\n    });\n    fragment.indicator.push({\n        bgcolor: 'white',\n        size: (maxUnits-fragment.totalUnits)/maxUnits\n    })\n}\n\nAPI.createData('fragments', fragments);\nAPI.createData('groupedFragments', groupedFragments);\n\nAPI.createData('totalQuantity',totalQuantity);\n\nlet chargedFragments=fragments.filter(fragment => Number(fragment.ms.charge)!==0);\n\nlet isotopicDistribution=new IsotopicDistribution(chargedFragments);\nvar data=isotopicDistribution.getXY();\n\n\nvar fullSpectrum={\n    type:\"chart\",\n    value:{\n        title:\"Mass spectrum\",\n        data\n    }\n};\n\nAPI.createData(\"fullSpectrum\",fullSpectrum);\n\n\n\n\nwindow.setTimeout( () => {\n    switch (this.button) {\n        case 'calculate':\n            if (preferences.mass.minSimilarity) {\n                this.showButton('calibrateAndRecalculate'); \n            }\n            API.doAction('calculateXShiftFunction');\n            API.createData('rescaledMass','');\n            break;\n        case 'calibrateAndRecalculate':\n            API.doAction('calculateXNewShiftFunction');\n            API.createData('rescaledMass','Masses were recalibrated');\n            break;\n    }\n\n})\n\nfunction loadSpectrum(massData) {\n    if (! massData) return;\n    emdb.setExperimentalSpectrum(massData);\n    emdb.experimentalSpectrum.scaleY(100);\n    let data=emdb.experimentalSpectrum.data;\n    let totalPeaks=data.y.reduce( (previous, current) => previous+current, 0);\n    \n    let peaksWidth=emdb.experimentalSpectrum.peaksWidth();\n    API.cache('peaksWidth', peaksWidth);\n    \n    if (peaksWidth.score.r2>0) {\n        // hack because of font awesome / spectra displayer problem\n        let peaks={x:[],y:[]};\n        let length=peaksWidth.widths.x.length;\n\n        if (length>500) {\n            let step=Math.floor(length/500);\n            for (let i=0; i<length; i+=step) {\n                peaks.x.push(peaksWidth.widths.x[i]);\n                peaks.y.push(peaksWidth.widths.y[i]);\n            }\n        } else {\n            peaks=peaksWidth.widths;\n        }\n        \n        API.createData('peaksWidths', peaks);\n        API.createData('peaksWidthFit', peaksWidth.fit);\n        API.createData('peaksWidthR2', peaksWidth.score.r2);\n        console.log(peaksWidth.tex);\n        API.createData('peaksWidthTex', peaksWidth.tex.replace('f','f_1'));\n    } else {\n        UI.showNotification('Could not calculate peaks width','warning');\n        API.createData('peaksWidths', undefined);\n        API.createData('peaksWidthFit', undefined);\n        API.createData('peaksWidthR2', undefined);\n        API.createData('peaksWidthTex', undefined);\n    }\n    \n    API.createData('experimentalChart', data);\n    API.createData('experimentalIsContinuous', emdb.experimentalSpectrum.isContinuous());\n    API.doAction('autoPeakWidth');\n    \n    window.setTimeout( () => API.doAction('fullOut','xy'), 1);\n}\n\n\n"
               ]
             }
           ],
@@ -14692,13 +14218,13 @@
             [
               {
                 "name": "calculate",
-                "label": "Calculate",
+                "label": "Assign without recalibration",
                 "hide": [],
                 "disable": []
               },
               {
                 "name": "calibrateAndRecalculate",
-                "label": "Calibrate and recalculate",
+                "label": "Recalibrate and assign",
                 "hide": [
                   "hide"
                 ],
@@ -15084,7 +14610,7 @@
           "name": "Default layer"
         }
       },
-      "id": 28,
+      "id": 27,
       "vars_in": [
         {}
       ],
@@ -15371,7 +14897,7 @@
           },
           "zIndex": 0,
           "display": false,
-          "title": "List of error (in Da) between found and expected",
+          "title": "Mass accuracy vs m/z before calibration",
           "bgColor": [
             255,
             255,
@@ -15516,7 +15042,7 @@
         },
         "PeakPicking": {
           "position": {
-            "left": 52,
+            "left": 63,
             "top": 6
           },
           "size": {
@@ -15525,7 +15051,7 @@
           },
           "zIndex": 0,
           "display": true,
-          "title": "",
+          "title": "Mass accuracy vs m/z before calibration",
           "bgColor": [
             255,
             255,
@@ -15735,7 +15261,7 @@
           "name": "Default layer"
         }
       },
-      "id": 29,
+      "id": 28,
       "vars_in": [
         {
           "rel": "chart",
@@ -15796,7 +15322,7 @@
           ]
         }
       ],
-      "title": "",
+      "title": "Mass accuracy vs m/z before calibration",
       "zindex": 4
     },
     {
@@ -16018,7 +15544,7 @@
           },
           "zIndex": 0,
           "display": false,
-          "title": "List of error (in Da) between found and expected after correction",
+          "title": "Mass accuracy vs m/z after calibration",
           "bgColor": [
             255,
             255,
@@ -16163,7 +15689,7 @@
         },
         "PeakPicking": {
           "position": {
-            "left": 52,
+            "left": 63,
             "top": 39
           },
           "size": {
@@ -16172,7 +15698,7 @@
           },
           "zIndex": 0,
           "display": true,
-          "title": "",
+          "title": "Mass accuracy vs m/z after calibration",
           "bgColor": [
             255,
             255,
@@ -16382,7 +15908,7 @@
           "name": "Default layer"
         }
       },
-      "id": 30,
+      "id": 29,
       "vars_in": [
         {
           "rel": "chart",
@@ -16443,7 +15969,7 @@
           ]
         }
       ],
-      "title": "",
+      "title": "Mass accuracy vs m/z after calibration",
       "zindex": 4
     },
     {
@@ -16889,7 +16415,7 @@
           "name": "Default layer"
         }
       },
-      "id": 31,
+      "id": 30,
       "vars_in": [
         {
           "rel": "value",
@@ -16967,7 +16493,7 @@
                 ]
               ],
               "script": [
-                "console.log('Calculate mass shift')\n\nlet prefs=API.getData('preferences').resurrect();\nif (! prefs.mass.shift) prefs.mass.shift={};\nconsole.log(prefs);\n\nlet emdb=API.cache('emdb');\n\nif (this.button) {\n    this.action={\n        name:this.button\n    }\n}\n\nconsole.log('Execute: ',this.button);\nif (!prefs.mass.minSimilarity) return;\n\nlet fragments=API.getData('fragments');\n\nlet regression;\n\ntry {\n    regression=emdb.massShifts(fragments, {\n        minSimilarity : prefs.mass.shift.minSimilarity || 0.95,\n        minLength : prefs.mass.shift.minLength || 10 \n    });\n} catch (e) {\n    UI.showNotification(e.toString());\n    return;\n}\n\nswitch (this.action.name) {\n    case 'calculateXShiftFunction':\n        API.createData('shifts', regression.shifts);\n        API.createData('shiftsPPM', regression.shiftsPPM);\n        API.createData('shiftsRegression', regression.fit);\n        API.createData('shiftsRegressionTex', regression.tex);\n        API.cache('shiftFunction', (mass) => regression.predictFct(mass) );\n        break;\n    case 'calculateXNewShiftFunction':\n        API.createData('shiftsCorrected', regression.shifts);\n        API.createData('shiftsPPMCorrected', regression.shiftsPPM);\n        API.createData('shiftsCorrectedRegression', regression.fit);\n        API.createData('shiftsCorrectedRegressionTex', regression.tex);\n        break;\n}\n\n\n\n"
+                "console.log('Calculate mass shift')\n\nlet prefs=API.getData('preferences').resurrect();\nif (! prefs.mass.shift) prefs.mass.shift={};\nconsole.log(prefs);\n\nlet emdb=API.cache('emdb');\n\nif (this.button) {\n    this.action={\n        name:this.button\n    }\n}\n\nconsole.log('Execute: ',this.button);\nif (!prefs.mass.minSimilarity) return;\n\nlet fragments=API.getData('fragments');\n\nlet regression;\n\ntry {\n    regression=emdb.massShifts(fragments, {\n        minSimilarity : prefs.mass.shift.minSimilarity || 0.95,\n        minLength : prefs.mass.shift.minLength || 10 \n    });\n} catch (e) {\n    UI.showNotification(e.toString());\n    return;\n}\n\nswitch (this.action.name) {\n    case 'calculateXShiftFunction':\n        API.createData('shifts', regression.shifts);\n        API.createData('shiftsPPM', regression.shiftsPPM);\n        API.createData('shiftsRegression', regression.fit);\n        API.createData('shiftsRegressionTex', regression.tex.replace('f','_2'));\n        API.cache('shiftFunction', (mass) => regression.predictFct(mass) );\n        break;\n    case 'calculateXNewShiftFunction':\n        API.createData('shiftsCorrected', regression.shifts);\n        API.createData('shiftsPPMCorrected', regression.shiftsPPM);\n        API.createData('shiftsCorrectedRegression', regression.fit);\n        API.createData('shiftsCorrectedRegressionTex', regression.tex.replace('f','_3'));\n        break;\n}\n\n\n\n"
               ]
             }
           ],
@@ -17377,7 +16903,7 @@
           "name": "Default layer"
         }
       },
-      "id": 32,
+      "id": 31,
       "vars_in": [
         {}
       ],
@@ -17884,7 +17410,7 @@
           "name": "Default layer"
         }
       },
-      "id": 33,
+      "id": 32,
       "vars_in": [
         {
           "rel": "value",
@@ -18138,7 +17664,7 @@
           },
           "zIndex": 0,
           "display": false,
-          "title": "List of error (in Da) between found and expected",
+          "title": "Mass accuracy vs m/z before calibration",
           "bgColor": [
             255,
             255,
@@ -18283,7 +17809,7 @@
         },
         "PeakPicking": {
           "position": {
-            "left": 104,
+            "left": 115,
             "top": 6
           },
           "size": {
@@ -18292,7 +17818,7 @@
           },
           "zIndex": 0,
           "display": true,
-          "title": "",
+          "title": "Mass accuracy vs m/z before calibration",
           "bgColor": [
             255,
             255,
@@ -18502,7 +18028,7 @@
           "name": "Default layer"
         }
       },
-      "id": 34,
+      "id": 33,
       "vars_in": [
         {
           "rel": "chart",
@@ -18559,7 +18085,7 @@
           ]
         }
       ],
-      "title": "",
+      "title": "Mass accuracy vs m/z before calibration",
       "zindex": 4
     },
     {
@@ -18760,7 +18286,7 @@
           },
           "zIndex": 0,
           "display": false,
-          "title": "List of error (in Da) between found and expected after correction",
+          "title": "Mass accuracy vs m/z after calibration",
           "bgColor": [
             255,
             255,
@@ -18905,7 +18431,7 @@
         },
         "PeakPicking": {
           "position": {
-            "left": 104,
+            "left": 115,
             "top": 39
           },
           "size": {
@@ -18914,7 +18440,7 @@
           },
           "zIndex": 0,
           "display": true,
-          "title": "",
+          "title": "Mass accuracy vs m/z after calibration",
           "bgColor": [
             255,
             255,
@@ -19124,7 +18650,7 @@
           "name": "Default layer"
         }
       },
-      "id": 35,
+      "id": 34,
       "vars_in": [
         {
           "rel": "chart",
@@ -19181,7 +18707,7 @@
           ]
         }
       ],
-      "title": "",
+      "title": "Mass accuracy vs m/z after calibration",
       "zindex": 4
     },
     {
@@ -19603,7 +19129,7 @@
           "name": "Default layer"
         }
       },
-      "id": 36,
+      "id": 35,
       "vars_in": [
         {}
       ],
@@ -20223,7 +19749,7 @@
           "name": "Default layer"
         }
       },
-      "id": 37,
+      "id": 36,
       "vars_in": [
         {
           "rel": "annotations",
@@ -20739,7 +20265,7 @@
           "name": "Default layer"
         }
       },
-      "id": 38,
+      "id": 37,
       "vars_in": [
         {
           "rel": "value",
@@ -20990,7 +20516,7 @@
             "top": 6
           },
           "size": {
-            "width": 51,
+            "width": 62,
             "height": 32
           },
           "zIndex": 0,
@@ -21205,7 +20731,7 @@
           "name": "Default layer"
         }
       },
-      "id": 39,
+      "id": 38,
       "vars_in": [
         {}
       ],
@@ -21263,7 +20789,34 @@
       "richtext": {
         "ops": [
           {
-            "insert": "When loading an experimental spectrum that is continuous (in contrast with centroid) the application will automatically perform a peak picking and calculate the function that fits the best the peak width depending the m/z. This information is used to calculate the similarity between theoretical and experimental peaks.\n\nAfter calculating the various possible peaks in complex mixture, this application will also calculate the error (in mDa and ppm) and a linear regression that allows, in case over 10 isotopic distribution with over 95% similarity were found, to post-calibrate the mass axis.\n"
+            "insert": "Background of similarity calculation and recalibration procedure."
+          },
+          {
+            "attributes": {
+              "header": 3
+            },
+            "insert": "\n"
+          },
+          {
+            "insert": "Calculations from experimental data"
+          },
+          {
+            "attributes": {
+              "header": 4
+            },
+            "insert": "\n"
+          },
+          {
+            "insert": "The application automatically performs a peak picking from loaded experimental spectra.\nNote that this function requires the experimental peaks to be plot as profiles and not centroids.\nThe resolution of mass spectrometers typically decreases as m/z increases. Here, the application calculates a function f1(x) that fits best this effect based on the experimental data. This function is then taken into consideration for the calculation of the similarity parameter as well as the recalibration procedure, both available in the “Assign” tab.\nComparison with theoretical data"
+          },
+          {
+            "attributes": {
+              "header": 4
+            },
+            "insert": "\n"
+          },
+          {
+            "insert": "If assignment of experimental peaks is successfully performed in the “Assign” tab (i.e. at least 10 isotopic distributions match the theoretical ones with more than 95% similarity), then mass accuracy is plot based on m/z. A linear regression is performed to give f2(x) and f3(x), allowing the postcalibration of the mass axis. Recalibration is available in the “Assign” tab with the button “Calculate and recalibrate”. Evolution of mass accuracy prior and post calibration is monitored in this Tab.\nNote that the post-calibration is strongly dependant on the analysis preferences and thus the number of assigned peaks from the “Assign” Tab.\n"
           }
         ]
       },
@@ -21571,7 +21124,7 @@
           },
           "size": {
             "width": 39,
-            "height": 49
+            "height": 50
           },
           "zIndex": 0,
           "display": true,
@@ -21675,7 +21228,7 @@
           "name": "Default layer"
         }
       },
-      "id": 40,
+      "id": 39,
       "vars_in": [
         {
           "rel": "tpl",
@@ -22169,7 +21722,7 @@
           "name": "Default layer"
         }
       },
-      "id": 41,
+      "id": 40,
       "vars_in": [
         {}
       ],
@@ -22648,7 +22201,7 @@
           "name": "ReportAdmin"
         }
       },
-      "id": 42,
+      "id": 41,
       "vars_in": [
         {
           "rel": "inputValue",
@@ -23112,7 +22665,7 @@
           "name": "ReportAdmin"
         }
       },
-      "id": 43,
+      "id": 42,
       "vars_in": [
         {
           "rel": "tpl",
@@ -23612,7 +23165,7 @@
           "name": "ReportAdmin"
         }
       },
-      "id": 44,
+      "id": 43,
       "vars_in": [
         {}
       ],
@@ -24282,7 +23835,7 @@
           "name": "Default layer"
         }
       },
-      "id": 45,
+      "id": 44,
       "vars_in": [
         {
           "rel": "annotations",
@@ -24746,7 +24299,7 @@
           },
           "size": {
             "width": 56,
-            "height": 50
+            "height": 42
           },
           "zIndex": 0,
           "display": true,
@@ -24784,7 +24337,7 @@
           "name": "ReportAdmin"
         }
       },
-      "id": 46,
+      "id": 45,
       "vars_in": [
         {
           "rel": "tpl",
@@ -24887,7 +24440,7 @@
                 1000
               ],
               "script": [
-                "<style>\n    #relativeForm {\n        padding: 10px;\n    }\n    #relativeForm th {\n        vertical-align: text-top;\n        text-align: left\n    }\n    #relativeForm tr>td {\n      padding-bottom: 1em;\n    }\n    #relativeForm input[type=number] {\n        width: 70px;\n    }\n    #emForm i {\n        relativeForm-size: 0.8em;\n        font-style: italic;\n    }\n</style>\n\n<div id='relativeForm'>\n    \n    <table>\n        <tr>\n            <th>\n                Relative to:\n            </th>\n            <td>\n                 <input type=\"text\" name=\"labelPrefs.shift\" style=\"width: 100px\"><br>\n                 <i>If this value is not null it will be relative</i>\n            </td>\n        </tr>\n        <tr>\n            <th>MF range:</th>\n            <td>\n                <textarea name=\"labelPrefs.ranges\" cols=40 rows=2 /><br>\n                <i>List of ranges of atoms to explore</i>\n            </td>\n        </tr>\n        <tr>\n            <th>\n                Charge:\n            </th>\n            <td>\n                <input type=\"number\" name=\"labelPrefs.charge\" style=\"width: 50px\">\n            </td>\n        </tr>\n        <tr>\n            <th>\n                Show MF:\n            </th>\n            <td>\n                <input type=\"checkbox\" name=\"labelPrefs.showMF\">\n            </td>\n        </tr>\n        <tr>\n            <th>Search monoisotopic:</th>\n            <td>\n                <input type=\"number\" min=0 max=1 step=0.05 name=\"labelPrefs.searchMonoisotopicRatio\" /><br>\n                <i>If the value is different from zero the system tries to\n                label the monoisotopic mass even if it is not the main peak.\n                This value represents the relative height that is allowed to consider\n                that a peak of lower mass (up to 1.1Da) should be considered.</i>\n            </td>\n        </tr>\n    </table>\n\n    <h2>\n        MF colors\n    </h2>\n    <table>\n        <tr>\n            <th></th><th></th>\n            <th>Threshold (ppm)</th>\n            <th>Color</th>\n        </tr>\n        <tr data-repeat='labelPrefs.mfColors'>\n            <td><input type='number' style=\"width: 70px;\" data-field='limit'></td>\n            <td><input type='color' data-field='color'></td>\n        </tr>\n    </table>\n </div>\n\n<script>\n    require(['vh/util/twigAdvancedForm'], function(AF) {\n        AF('relativeForm', {debug:false});\n    });\n</script>"
+                "<style>\n    #relativeForm {\n        padding: 10px;\n    }\n    #relativeForm th {\n        vertical-align: text-top;\n        text-align: left\n    }\n    #relativeForm tr>td {\n      padding-bottom: 1em;\n    }\n    #relativeForm input[type=number] {\n        width: 70px;\n    }\n    #emForm i {\n        relativeForm-size: 0.8em;\n        font-style: italic;\n    }\n</style>\n\n<div id='relativeForm'>\n    \n    <table>\n        <tr>\n            <th>\n                Relative to:\n            </th>\n            <td>\n                 <input type=\"text\" name=\"labelPrefs.shift\" style=\"width: 100px\"><br>\n                 <i>If this value is not null it will be relative</i>\n            </td>\n        </tr>\n        <tr>\n            <th>MF range:</th>\n            <td>\n                <textarea name=\"labelPrefs.ranges\" cols=40 rows=2 /><br>\n                <i>List of ranges of atoms to explore</i>\n            </td>\n        </tr>\n        <tr>\n            <th>\n                Charge:\n            </th>\n            <td>\n                <input type=\"number\" name=\"labelPrefs.charge\" style=\"width: 50px\">\n            </td>\n        </tr>\n        <tr>\n            <th>\n                Show MF:\n            </th>\n            <td>\n                <input type=\"number\" min=0 max=20 style=\"width: 50px\" name=\"labelPrefs.numberMFs\"><br>\n                <i>Number of molecular formula proposals to display</i>\n            </td>\n        </tr>\n        <tr>\n            <th>Search monoisotopic:</th>\n            <td>\n                <input type=\"number\" min=0 max=1 step=0.05 name=\"labelPrefs.searchMonoisotopicRatio\" /><br>\n                <i>If the value is different from zero the system tries to\n                label the monoisotopic mass even if it is not the main peak.\n                This value represents the relative height that is allowed to consider\n                that a peak of lower mass (up to 1.1Da) should be considered.</i>\n            </td>\n        </tr>\n    </table>\n\n    <h2>\n        MF colors\n    </h2>\n    <table>\n        <tr>\n            <th></th><th></th>\n            <th>Threshold (ppm)</th>\n            <th>Color</th>\n        </tr>\n        <tr data-repeat='labelPrefs.mfColors'>\n            <td><input type='number' style=\"width: 70px;\" data-field='limit'></td>\n            <td><input type='color' data-field='color'></td>\n        </tr>\n    </table>\n </div>\n\n<script>\n    require(['vh/util/twigAdvancedForm'], function(AF) {\n        AF('relativeForm', {debug:false});\n    });\n</script>"
               ]
             }
           ],
@@ -25242,7 +24795,7 @@
             "top": 0
           },
           "size": {
-            "width": 48,
+            "width": 62,
             "height": 46
           },
           "zIndex": 0,
@@ -25281,7 +24834,7 @@
           "name": "ReportAdmin"
         }
       },
-      "id": 47,
+      "id": 46,
       "vars_in": [
         {}
       ],
@@ -25902,7 +25455,7 @@
           "name": "ReportAdmin"
         }
       },
-      "id": 48,
+      "id": 47,
       "vars_in": [
         {
           "rel": "list",
@@ -26366,7 +25919,7 @@
           "name": "Default layer"
         }
       },
-      "id": 49,
+      "id": 48,
       "vars_in": [
         {
           "rel": "tpl",
@@ -26860,7 +26413,7 @@
           "name": "Default layer"
         }
       },
-      "id": 50,
+      "id": 49,
       "vars_in": [
         {}
       ],
@@ -26958,7 +26511,7 @@
                 0
               ],
               "script": [
-                "<div>\n    <input type=\"checkbox\" name=\"showSpectrum\">\n    Display spectrum<br>\n    \n    <input type=\"checkbox\" name=\"showMZ\">\n    Display m/z table<br>\n    \n    <input type=\"checkbox\" name=\"showMonoisotopic\">\n    Display monoisotopic mass table<br>\n\n    <input type=\"checkbox\" name=\"showUnitVSQuantity\">\n    Display chart quantity versus monomers<br>\n\n    <input type=\"checkbox\" name=\"showUnitVSMass\">\n    Display chart monomers versus mass<br>\n\n    <input type=\"checkbox\" name=\"showQuantityVSMass\">\n    Display chart quantity versus mass<br>\n\n</div>"
+                "<style>\n    #reportPrefs {\n        zoom: 1.5\n    }\n</style>\n\n<div id=\"reportPrefs\">\n    <h2>Report preferences</h2>\n    <input type=\"checkbox\" name=\"showSpectrum\">\n    Display spectrum<br>\n    \n    <input type=\"checkbox\" name=\"showMZ\">\n    Display m/z table<br>\n    \n    <input type=\"checkbox\" name=\"showMonoisotopic\">\n    Display monoisotopic mass table<br>\n\n    <input type=\"checkbox\" name=\"showUnitVSQuantity\">\n    Display chart quantity versus monomers<br>\n\n    <input type=\"checkbox\" name=\"showUnitVSMass\">\n    Display chart monomers versus mass<br>\n\n    <input type=\"checkbox\" name=\"showQuantityVSMass\">\n    Display chart quantity versus mass<br>\n\n</div>"
               ]
             }
           ],
@@ -27352,7 +26905,7 @@
           "name": "Report"
         }
       },
-      "id": 51,
+      "id": 50,
       "vars_in": [
         {}
       ],
@@ -27796,11 +27349,11 @@
         },
         "Report": {
           "position": {
-            "left": 87,
+            "left": 89,
             "top": 7
           },
           "size": {
-            "width": 27,
+            "width": 34,
             "height": 60
           },
           "zIndex": 0,
@@ -27812,12 +27365,12 @@
             255,
             0
           ],
-          "wrapper": true,
+          "wrapper": false,
           "created": true,
           "name": "Report"
         }
       },
-      "id": 52,
+      "id": 51,
       "vars_in": [
         {
           "rel": "form",
@@ -27879,6 +27432,506 @@
         }
       ],
       "title": "Report preferences"
+    },
+    {
+      "url": "modules/types/display/single_value/",
+      "configuration": {
+        "sections": {},
+        "groups": {
+          "group": [
+            {
+              "append": [
+                []
+              ],
+              "maxEntries": [
+                1
+              ],
+              "editable": [
+                [
+                  "yes"
+                ]
+              ],
+              "editSearchRegexp": [
+                null
+              ],
+              "editReplace": [
+                null
+              ],
+              "debounce": [
+                0
+              ],
+              "defaultvalue": [
+                null
+              ],
+              "font": [
+                "Arial"
+              ],
+              "fontcolor": [
+                [
+                  0,
+                  0,
+                  0,
+                  1
+                ]
+              ],
+              "fontsize": [
+                "18pt"
+              ],
+              "align": [
+                "center"
+              ],
+              "valign": [
+                "middle"
+              ],
+              "rendererOptions": [
+                ""
+              ],
+              "forceType": [
+                ""
+              ],
+              "sprintf": [
+                null
+              ],
+              "sprintfOrder": [
+                null
+              ],
+              "preformatted": [
+                []
+              ]
+            }
+          ]
+        }
+      },
+      "layers": {
+        "Default layer": {
+          "position": {
+            "left": 57,
+            "top": 0
+          },
+          "size": {
+            "width": 77,
+            "height": 5
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": false,
+          "created": true,
+          "name": "Default layer"
+        },
+        "Admin": {
+          "position": {
+            "left": 0,
+            "top": 0
+          },
+          "size": {
+            "width": 20,
+            "height": 20
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Admin"
+        },
+        "CalcualteSpectrum": {
+          "position": {
+            "left": 0,
+            "top": 0
+          },
+          "size": {
+            "width": 20,
+            "height": 20
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "CalcualteSpectrum"
+        },
+        "Twig": {
+          "position": {
+            "left": 0,
+            "top": 0
+          },
+          "size": {
+            "width": 20,
+            "height": 20
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Twig"
+        },
+        "Form": {
+          "position": {
+            "left": 0,
+            "top": 0
+          },
+          "size": {
+            "width": 20,
+            "height": 20
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Form"
+        },
+        "LoadExample": {
+          "position": {
+            "left": 62,
+            "top": 47
+          },
+          "size": {
+            "width": 55,
+            "height": 17
+          },
+          "zIndex": 0,
+          "display": true,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "LoadExample"
+        },
+        "RocSample": {
+          "position": {
+            "left": 0,
+            "top": 0
+          },
+          "size": {
+            "width": 20,
+            "height": 20
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "RocSample"
+        },
+        "PeakPicking": {
+          "position": {
+            "left": 0,
+            "top": 0
+          },
+          "size": {
+            "width": 20,
+            "height": 20
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "PeakPicking"
+        },
+        "SaveLoadResults": {
+          "position": {
+            "left": 0,
+            "top": 0
+          },
+          "size": {
+            "width": 20,
+            "height": 20
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "SaveLoadResults"
+        },
+        "SaveLoadResults Admin": {
+          "position": {
+            "left": 0,
+            "top": 0
+          },
+          "size": {
+            "width": 20,
+            "height": 20
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "SaveLoadResults Admin"
+        },
+        "Calculate X shift function": {
+          "position": {
+            "left": 0,
+            "top": 0
+          },
+          "size": {
+            "width": 20,
+            "height": 20
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Calculate X shift function"
+        },
+        "KendrickAdmin": {
+          "position": {
+            "left": 0,
+            "top": 0
+          },
+          "size": {
+            "width": 20,
+            "height": 20
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "KendrickAdmin"
+        },
+        "Kendrick": {
+          "position": {
+            "left": 0,
+            "top": 0
+          },
+          "size": {
+            "width": 20,
+            "height": 20
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Kendrick"
+        },
+        "ReportAdmin": {
+          "position": {
+            "left": 0,
+            "top": 0
+          },
+          "size": {
+            "width": 20,
+            "height": 20
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "ReportAdmin"
+        },
+        "Explore": {
+          "position": {
+            "left": 0,
+            "top": 0
+          },
+          "size": {
+            "width": 20,
+            "height": 20
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Explore"
+        },
+        "ExploreAdmin": {
+          "position": {
+            "left": 0,
+            "top": 0
+          },
+          "size": {
+            "width": 20,
+            "height": 20
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "ExploreAdmin"
+        },
+        "Report": {
+          "position": {
+            "left": 0,
+            "top": 0
+          },
+          "size": {
+            "width": 20,
+            "height": 20
+          },
+          "zIndex": 0,
+          "display": false,
+          "title": "",
+          "bgColor": [
+            255,
+            255,
+            255,
+            0
+          ],
+          "wrapper": true,
+          "created": true,
+          "name": "Report"
+        }
+      },
+      "id": 52,
+      "vars_in": [
+        {
+          "rel": "value",
+          "name": "title"
+        }
+      ],
+      "actions_in": [
+        {}
+      ],
+      "actions_out": [
+        {
+          "jpath": []
+        }
+      ],
+      "vars_out": [],
+      "toolbar": {
+        "custom": [
+          [
+            {
+              "title": "",
+              "icon": "",
+              "action": "",
+              "position": "begin",
+              "color": [
+                100,
+                100,
+                100,
+                1
+              ]
+            }
+          ]
+        ],
+        "common": [
+          {
+            "toolbar": [
+              [
+                "Open Preferences"
+              ]
+            ]
+          }
+        ]
+      },
+      "css": [
+        {
+          "fontSize": [
+            ""
+          ],
+          "fontFamily": [
+            ""
+          ]
+        }
+      ],
+      "title": ""
     }
   ],
   "variables": [
@@ -27915,7 +27968,7 @@
         "general": [
           {
             "script": [
-              "const [Roc,UserAnalysisResults,Sample,Track,libs,Sequence] = await API.require([\n    'vh/rest-on-couch/Roc',\n    'vh/rest-on-couch/UserAnalysisResults',\n    'vh/eln/Sample',\n    'vh/util/track',\n    'vh/eln/libs'\n]);\n\n\nlet MolecularFormula;\nif (true) {\n    MolecularFormula = libs.MolecularFormula;\n} else {\n    MolecularFormula = await API.require('http://localhost:9898/cheminfo-js/molecular-formula/dist/molecular-formula.min.js');\n}\n\n// this is used to calculate information directly in the form.\nwindow.MolecularFormula = MolecularFormula;\n\n\nAPI.cache('MolecularFormula',MolecularFormula);\nconst emdb = new MolecularFormula.EMDB();\nAPI.cache('emdb',emdb);\n\n\nif (typeof IframeBridge !== 'undefined') {\n    IframeBridge.onMessage(onMessage);\n    IframeBridge.ready();\n    async function onMessage(data) {\n        if (data.type === 'tab.data') {\n            var sample = new Sample(data.message.couchDB, data.message.uuid, {\n                track:true,\n                onSync(synced) {\n                    console.log('received synced event', synced);\n                    API.createData('dataSynced', synced);\n                }\n            });\n            API.cache('sample',sample);\n            await sample.waitSampleLoaded();\n              \n            var roc = new Roc(data.message.couchDB);\n            API.cache('roc', roc);\n            \n            var userAnalysisResults = new UserAnalysisResults(roc, data.message.uuid);\n            API.cache(\"userAnalysisResults\", userAnalysisResults);\n            userAnalysisResults.refresh();\n        }\n    }\n} else {\n    var {extSample} = await API.require('vh/eln/SampleFactory');\n    var sample = await extSample();\n    API.cache('sample',sample);\n    API.createData('LoadDemos','');\n}\n\n\n\nlet defaultPreferences={\n    terminalA: \"\",\n    terminalB: \"\",\n    ionizations: 'H+',\n    parts: [],\n    mass: {\n        threshold:0.001,\n        precision:10,\n        similarity: {\n            widthBottom: 0.2,\n            widthTop: 0.1,\n            widthFunction: '',\n            zone: {low: -0.5, high: 2.5},\n            common: 'second'\n        },\n        minSimilarity: ''\n    },\n    kendrick: {\n        kind: 'monoisotopic',\n        mf: 'CH2',\n        baseline: 'H2',\n        defectTolerance: 6,\n        radius: {min: 1, max: 5},\n        defects: [\n            { mf:'O', label:false, color:'#FF0000' },\n            { mf:'N', label:false, color:'#00FF00' },\n            { mf:'H-2', label:false, color:'#0000FF' },\n        ]\n    },\n    labelPrefs: {\n        relativeMass:false,\n        ranges: 'C0-30 H0-60 N0-5 O0-10 Cl0-3',\n        numberDigits:5,\n        shift:0,\n        showMF:false,\n        searchMonoisotopicRatio: 0.8,\n        charge:1,\n        mfColors: [\n          { limit: 5, color: '#007700' },\n          { limit: 20, color: '#00FF00' },\n          { limit: 50, color: '#ffb347' }\n        ]\n    }\n}\n\nlet preferences=await Track('massPolymerPreferences', defaultPreferences, {\n    varName:'preferences'\n});\n\nAPI.createData('reportPreferences', {});\n\n\nlet preferencesVar = API.getVariable('preferences');\nAPI.setVariable('labelPrefs', preferencesVar, ['labelPrefs']);\n\nAPI.createData('description','');\nAPI.createData('fragments', []);\n\n\nAPI.require('vh/util/tips').then( Tips => {\n    Tips.showTips();\n    Tips.addPageHelp({iconSize:'fa-4x'});\n});\n\nAPI.createData('currentLayer','home');\n"
+              "const [Roc,UserAnalysisResults,Sample,Track,libs,Sequence] = await API.require([\n    'vh/rest-on-couch/Roc',\n    'vh/rest-on-couch/UserAnalysisResults',\n    'vh/eln/Sample',\n    'vh/util/track',\n    'vh/eln/libs'\n]);\n\n\nlet MolecularFormula;\nif (true) {\n    MolecularFormula = libs.MolecularFormula;\n} else {\n    MolecularFormula = await API.require('http://localhost:9898/cheminfo-js/molecular-formula/dist/molecular-formula.min.js');\n}\n\n// this is used to calculate information directly in the form.\nwindow.MolecularFormula = MolecularFormula;\n\n\nAPI.cache('MolecularFormula',MolecularFormula);\nconst emdb = new MolecularFormula.EMDB();\nAPI.cache('emdb',emdb);\n\n\nif (typeof IframeBridge !== 'undefined') {\n    IframeBridge.onMessage(onMessage);\n    IframeBridge.ready();\n    async function onMessage(data) {\n        if (data.type === 'tab.data') {\n            var sample = new Sample(data.message.couchDB, data.message.uuid, {\n                track:true,\n                onSync(synced) {\n                    console.log('received synced event', synced);\n                    API.createData('dataSynced', synced);\n                }\n            });\n            API.cache('sample',sample);\n            await sample.waitSampleLoaded();\n              \n            var roc = new Roc(data.message.couchDB);\n            API.cache('roc', roc);\n            \n            var userAnalysisResults = new UserAnalysisResults(roc, data.message.uuid);\n            API.cache(\"userAnalysisResults\", userAnalysisResults);\n            userAnalysisResults.refresh();\n        }\n    }\n} else {\n    var {extSample} = await API.require('vh/eln/SampleFactory');\n    var sample = await extSample();\n    API.cache('sample',sample);\n    API.createData('LoadDemos','');\n}\n\n\n\nlet defaultPreferences={\n    terminalA: \"\",\n    terminalB: \"\",\n    ionizations: 'H+',\n    parts: [],\n    mass: {\n        threshold:0.1,\n        precision:10,\n        similarity: {\n            widthBottom: 0.2,\n            widthTop: 0.1,\n            widthFunction: '',\n            zone: {low: -0.5, high: 2.5},\n            common: 'second'\n        },\n        minSimilarity: ''\n    },\n    kendrick: {\n        kind: 'monoisotopic',\n        mf: 'CH2',\n        baseline: 'H2',\n        defectTolerance: 6,\n        radius: {min: 1, max: 5},\n        defects: [\n            { mf:'O', label:false, color:'#FF0000' },\n            { mf:'N', label:false, color:'#00FF00' },\n            { mf:'H-2', label:false, color:'#0000FF' },\n        ]\n    },\n    labelPrefs: {\n        relativeMass:false,\n        ranges: 'C0-30 H0-60 N0-5 O0-10 Cl0-3',\n        numberDigits:5,\n        shift:0,\n        numberMFs:3,\n        searchMonoisotopicRatio: 0.8,\n        charge:1,\n        mfColors: [\n          { limit: 5, color: '#007700' },\n          { limit: 20, color: '#00FF00' },\n          { limit: 50, color: '#ffb347' }\n        ]\n    }\n}\n\nlet preferences=await Track('massPolymerPreferences', defaultPreferences, {\n    varName:'preferences'\n});\n\nAPI.createData('reportPreferences', {});\n\n\nlet preferencesVar = API.getVariable('preferences');\nAPI.setVariable('labelPrefs', preferencesVar, ['labelPrefs']);\n\nAPI.createData('description','');\nAPI.createData('fragments', []);\n\n\nAPI.require('vh/util/tips').then( Tips => {\n    Tips.showTips();\n    Tips.addPageHelp({iconSize:'fa-4x'});\n});\n\nAPI.createData('currentLayer','home');\n"
             ]
           }
         ]
@@ -27989,7 +28042,7 @@
   ],
   "aliases": [
     {
-      "path": "https://www.lactame.com/github/cheminfo-js/visualizer-helper/8396a8aa969f56c64ae98036d68002d727fd1857/",
+      "path": "https://www.lactame.com/github/cheminfo-js/visualizer-helper/971f889fad84a5f9339ae6d5a3722d7c296993c9/",
       "alias": "vh"
     },
     {
