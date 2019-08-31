@@ -94,6 +94,8 @@ define(["module", "src/util/api", "src/util/IDBKeyValue", "./ExpandableMolecule"
       } : {
         $content: {
           general: {
+            title: '',
+            description: '',
             mf: '',
             molfile: ''
           },
@@ -105,16 +107,11 @@ define(["module", "src/util/api", "src/util/IDBKeyValue", "./ExpandableMolecule"
         }
       };
       this.sample = JSON.parse(JSON.stringify(s));
-
-      if (this.sample.$content.general.molfile) {
-        // Let the mf be calculated from the molfile
-        delete this.sample.$content.general.mf;
-      } else {
-        this.sample.$content.general.molfile = ''; // can not be edited otherwise
-      }
-
       this.options = Object.assign({}, defaultOptions, options);
       Object.assign(this.sample, this.options.sample);
+      console.log('this', {
+        sample: this.sample
+      });
 
       this._init();
     }
@@ -124,6 +121,9 @@ define(["module", "src/util/api", "src/util/IDBKeyValue", "./ExpandableMolecule"
       value: function _loadSample(sample) {
         var _this = this;
 
+        console.log('loadSample:', {
+          sample: sample
+        });
         this.sample = sample;
 
         var sampleVar = _api2["default"].getVar(this.options.varName);
@@ -151,6 +151,8 @@ define(["module", "src/util/api", "src/util/IDBKeyValue", "./ExpandableMolecule"
         _api2["default"].setVariable('ir', sampleVar, ['$content', 'spectra', 'ir']);
 
         _api2["default"].setVariable('description', sampleVar, ['$content', 'general', 'description']);
+
+        _api2["default"].setVariable('title', sampleVar, ['$content', 'general', 'title']);
 
         _api2["default"].setVariable('iupac', sampleVar, ['$content', 'general', 'iupac']);
 
@@ -239,11 +241,18 @@ define(["module", "src/util/api", "src/util/IDBKeyValue", "./ExpandableMolecule"
                             case 14:
                               sample = _context.sent;
 
+                              if (sample.$content.general.molfile) {
+                                // Let the mf be calculated from the molfile
+                                delete sample.$content.general.mf;
+                              } else {
+                                sample.$content.general.molfile = ''; // can not be edited otherwise
+                              }
+
                               _this2._loadSample(sample);
 
                               resolve();
 
-                            case 17:
+                            case 18:
                             case "end":
                               return _context.stop();
                           }
@@ -346,6 +355,30 @@ define(["module", "src/util/api", "src/util/IDBKeyValue", "./ExpandableMolecule"
       key: "handleAction",
       value: function handleAction(action) {
         if (!action) return;
+
+        switch (action.name) {
+          case 'unattach':
+            {
+              var value = action.value;
+
+              if (value && value.__parent) {
+                for (var i = 0; i < value.__parent.length; i++) {
+                  var row = value.__parent[i];
+
+                  if (row === value) {
+                    value.__parent.splice(i, 1);
+
+                    value.__parent.triggerChange();
+
+                    return;
+                  }
+                }
+              }
+            }
+            break;
+
+          default:
+        }
 
         if (this.expandableMolecule) {
           this.expandableMolecule.handleAction(action);

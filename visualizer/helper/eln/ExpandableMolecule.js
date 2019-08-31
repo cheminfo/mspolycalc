@@ -187,7 +187,7 @@ define(["module", "src/util/api", "src/util/ui", "./libs/OCLE"], function (modul
         entry.molfile = this.molfile;
 
         if (this.sample.$id) {
-          entry.id = this.sample.$id.resurrect().filter(function (a) {
+          entry.id = DataObject.resurrect(this.sample.$id).filter(function (a) {
             return a;
           }).join(' ');
         } // we sort by timestamp

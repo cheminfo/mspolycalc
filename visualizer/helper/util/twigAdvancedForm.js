@@ -58,9 +58,12 @@ function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) { for (var i = 0, arr
  *   </table>
  */
 define(['jquery', 'src/util/api', 'modules/modulefactory'], function ($, API, Module) {
+  console.log('START');
+
   function AdvancedForm(divID) {
     var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
     // we will find automatically the variableName
+    if (options.debug) console.log('CREATE ADVANCED FORM');
     var moduleId = $("#".concat(divID)).closest('[data-module-id]').attr('data-module-id');
     var module = Module.getModules().find(function (m) {
       return "".concat(m.getId()) === "".concat(moduleId);
@@ -83,6 +86,8 @@ define(['jquery', 'src/util/api', 'modules/modulefactory'], function ($, API, Mo
       }
     }, function (newData) {
       newData.currentPromise.then(function () {
+        if (options.debug) console.log('receive newData', newData);
+
         if (!data) {
           if (options.debug) {
             console.log('The variable', variableName, 'does not exist yet. We will load it.');
@@ -94,9 +99,21 @@ define(['jquery', 'src/util/api', 'modules/modulefactory'], function ($, API, Mo
       });
     }); // we will initialise the form
 
-    var dom = $(document.getElementById(divID)); // Add the buttons ADD / REMOVE
+    var dom = $(document.getElementById(divID));
 
-    dom.find('[data-repeat]').prepend("\n                <td><span class=\"form-button addRow\" /></td>\n                <td><span class=\"form-button removeRow\" /></td>\n            ");
+    if (options.debug) {
+      console.log('Initialize the form');
+    } // Add the buttons ADD / REMOVE
+
+
+    var rows = dom.find('[data-repeat]:not([class="form-button addRow"])');
+
+    if (rows) {
+      rows = rows.filter(function () {
+        return !this.innerHTML.includes('form-button addRow');
+      });
+      rows.prepend("\n                  <td><span class=\"form-button addRow\" /></td>\n                  <td><span class=\"form-button removeRow\" /></td>\n              ");
+    }
 
     if (!data && API.getData(variableName)) {
       data = API.getData(variableName);
@@ -142,6 +159,8 @@ define(['jquery', 'src/util/api', 'modules/modulefactory'], function ($, API, Mo
 
 
     function updateTwig() {
+      if (options.debug) console.log('Update twig');
+
       do {
         var elements = dom.find('[data-repeat]:not([data-index])');
         elements.each(handleDataRepeat);

@@ -1,6 +1,6 @@
 "use strict";
 
-define(["exports", "https://www.lactame.com//lib/molecular-formula/0.28.0/molecular-formula.js"], function (exports, _molecularFormula) {
+define(["exports", "https://www.lactame.com//lib/molecular-formula/0.31.0/molecular-formula.js"], function (exports, _molecularFormula) {
   Object.defineProperty(exports, "__esModule", {
     value: true
   });

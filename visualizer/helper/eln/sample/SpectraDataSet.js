@@ -147,11 +147,14 @@ define(["module", "src/util/api", "src/util/versioning", "src/util/color"], func
 
   var SpectraDataSet = function () {
     function SpectraDataSet(roc, sampleToc) {
+      var options = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+
       _classCallCheck(this, SpectraDataSet);
 
       this.roc = roc;
       this.sampleToc = sampleToc;
       this.spectraConfig = undefined;
+      this.defaultAttributes = options.defaultAttributes || {};
     }
 
     _createClass(SpectraDataSet, [{
@@ -315,25 +318,35 @@ define(["module", "src/util/api", "src/util/versioning", "src/util/color"], func
     }, {
       key: "clickedSample",
       value: function () {
-        var _clickedSample = _asyncToGenerator(regeneratorRuntime.mark(function _callee3(uuid) {
-          var data, spectra;
+        var _clickedSample = _asyncToGenerator(regeneratorRuntime.mark(function _callee3(samples) {
+          var uuid, data, spectra;
           return regeneratorRuntime.wrap(function _callee3$(_context3) {
             while (1) {
               switch (_context3.prev = _context3.next) {
                 case 0:
-                  _context3.next = 2;
+                  if (!(samples.length !== 1)) {
+                    _context3.next = 3;
+                    break;
+                  }
+
+                  _api2["default"].createData('spectra', []);
+
+                  return _context3.abrupt("return");
+
+                case 3:
+                  uuid = String(samples[0].id);
+                  _context3.next = 6;
                   return this.roc.document(uuid, {
                     varName: 'linkedSample'
                   });
 
-                case 2:
+                case 6:
                   data = _context3.sent;
                   spectra = this.spectraConfig.getSpectra(data);
 
-                  // let spectra = data.$content.spectra.ir;
                   _api2["default"].createData('spectra', spectra);
 
-                case 5:
+                case 9:
                 case "end":
                   return _context3.stop();
               }
@@ -378,32 +391,31 @@ define(["module", "src/util/api", "src/util/versioning", "src/util/color"], func
                   _loop = function _loop() {
                     var tocEntry = _step.value;
                     promises.push(_this2.roc.document(tocEntry.id).then(function (sample) {
-                      if (sample.$content.spectra && sample.$content.spectra.ir) {
-                        var spectra = sample.$content.spectra.ir;
-                        var _iteratorNormalCompletion2 = true;
-                        var _didIteratorError2 = false;
-                        var _iteratorError2 = undefined;
+                      var spectra = _this2.spectraConfig.getSpectra(sample);
 
-                        try {
-                          for (var _iterator2 = spectra[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
-                            var spectrum = _step2.value;
+                      var _iteratorNormalCompletion2 = true;
+                      var _didIteratorError2 = false;
+                      var _iteratorError2 = undefined;
 
-                            if (spectrum.jcamp && spectrum.jcamp.filename) {
-                              _this2.addSpectrumToSelected(spectrum, tocEntry, selectedSpectra);
-                            }
+                      try {
+                        for (var _iterator2 = spectra[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
+                          var spectrum = _step2.value;
+
+                          if (spectrum.jcamp && spectrum.jcamp.filename) {
+                            _this2.addSpectrumToSelected(spectrum, tocEntry, selectedSpectra);
                           }
-                        } catch (err) {
-                          _didIteratorError2 = true;
-                          _iteratorError2 = err;
+                        }
+                      } catch (err) {
+                        _didIteratorError2 = true;
+                        _iteratorError2 = err;
+                      } finally {
+                        try {
+                          if (!_iteratorNormalCompletion2 && _iterator2["return"] != null) {
+                            _iterator2["return"]();
+                          }
                         } finally {
-                          try {
-                            if (!_iteratorNormalCompletion2 && _iterator2["return"] != null) {
-                              _iterator2["return"]();
-                            }
-                          } finally {
-                            if (_didIteratorError2) {
-                              throw _iteratorError2;
-                            }
+                          if (_didIteratorError2) {
+                            throw _iteratorError2;
                           }
                         }
                       }
@@ -481,7 +493,12 @@ define(["module", "src/util/api", "src/util/versioning", "src/util/color"], func
           spectrum.sampleID = sampleID;
           spectrum.id = spectrumID;
           spectrum.display = true;
-          spectrum.pcaModel = false;
+
+          for (var key in this.defaultAttributes) {
+            spectrum[key] = this.defaultAttributes[key];
+          }
+
+          spectrum.deconvolutionReference = false;
           spectrum.sampleCode = tocEntry.key.slice(1).join('_');
           spectrum.toc = tocEntry;
           spectrum.category = spectrum.sampleCode;
