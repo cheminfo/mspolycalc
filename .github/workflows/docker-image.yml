@@ -1,0 +1,16 @@
+name: Docker image
+
+on:
+  push:
+    tags:
+      - v*
+  workflow_dispatch:
+
+jobs:
+  docker:
+    # Documentation: https://github.com/zakodium/workflows#docker-image
+    uses: zakodium/workflows/.github/workflows/docker-image.yml@docker-image-v1
+    with:
+      # On a tag, publish :latest, :<major>, :<major>.<minor> and the full
+      # version. A manual dispatch leaves it empty and publishes :HEAD only.
+      tag-version: ${{ github.ref_type == 'tag' && github.ref_name || '' }}

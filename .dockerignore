@@ -1,0 +1,7 @@
+.git
+.github
+.claude
+.env
+compose*.yaml
+LICENSE
+README.md

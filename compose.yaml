@@ -1,0 +1,29 @@
+# Port-published deployment — the default `docker compose` loads when
+# COMPOSE_FILE is unset.
+# cp .env.example .env
+# docker compose up -d
+services:
+  mspolycalc:
+    # Use the released image by default. To build locally instead, run:
+    #   docker compose up -d --build
+    image: ghcr.io/cheminfo/mspolycalc:latest
+    build: .
+    ports:
+      - '${PORT:-40828}:80'
+    init: true
+    read_only: true
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    mem_limit: 512m
+    cpus: 0.5
+    pids_limit: 256
+    ulimits:
+      core: 0
+    logging:
+      options:
+        max-size: '5m'
+        max-file: '3'
+    stop_grace_period: 30s
+    restart: unless-stopped
