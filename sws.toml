@@ -2,22 +2,3 @@
 host = "0.0.0.0"
 port = 80
 root = "/public"
-
-[advanced]
-
-# The view served from couch.cheminfo.org asks for the visualizer-helper
-# modules and the shared libraries through paths relative to the visualizer
-# directory (`../../github/…`, `../../lib/…`), which only resolve when the page
-# is served from www.lactame.com. Send those two prefixes back to the CDN so
-# the view works unchanged from any host. The CDN answers with
-# `access-control-allow-origin: *`, so the cross-origin loads succeed.
-# `$0` is the whole matched request path, so the CDN receives the same path.
-[[advanced.redirects]]
-source = "/github/**"
-destination = "https://www.lactame.com$0"
-kind = 302
-
-[[advanced.redirects]]
-source = "/lib/**"
-destination = "https://www.lactame.com$0"
-kind = 302

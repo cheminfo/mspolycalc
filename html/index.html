@@ -6,8 +6,8 @@
     <meta name="description" content="This website allows to interactively analyze high resolution mass spectra and create reports directly from the browser.">
     <meta name="keyword" content="PolyCalc, polymer, high resolution mass spectra, Kendrick, mass defect, polystyrene, polyethyleneglycol, PEG">
     <script
-      data-main="visualizer/src/init"
-      src="visualizer/src/components/requirejs/require.js"
+      data-main="https://www.lactame.com/visualizer/v2.154.1/init"
+      src="https://www.lactame.com/visualizer/v2.154.1/components/requirejs/require.js"
     ></script>
     <style>
       #ci-visualizer {
@@ -17,20 +17,12 @@
         margin: 0;
       }
     </style>
-    <script>
-      /*
-       * Do not remove. This is to make sure bluebird is correctly loaded
-       * for browsers that don't have the Promise global.
-       */
-      window.Promise = undefined;
-    </script>
   </head>
   <body>
     <div
       id="ci-visualizer"
-      data-ci-viewxx="./visualizer/view.json"
       data-ci-view="https://couch.cheminfo.org/cheminfo-public/230d2530cee8782b3cb63dc4e25931d9/view.json"
-      data-ci-config="./visualizer/config.json"
+      data-ci-config="./config.json"
     ></div>
   </body>
 </html>

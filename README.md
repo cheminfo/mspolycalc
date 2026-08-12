@@ -4,29 +4,31 @@ Interactive analysis of high resolution mass spectra of polymers — Kendrick
 plots, mass defect analysis and report generation, entirely in the browser.
 
 The page is a [cheminfo visualizer](https://github.com/cheminfo/visualizer) view:
-`html/index.html` boots the visualizer bundled under `html/visualizer/` and loads
-the view from
+`html/index.html` boots the visualizer from the lactame.com CDN and loads the
+view from
 [couch.cheminfo.org](https://couch.cheminfo.org/cheminfo-public/230d2530cee8782b3cb63dc4e25931d9/view.json).
-There is no build step and no backend — the whole site is the static content of
-`html/`, served by [static-web-server](https://static-web-server.net/) with
-`sws.toml`.
+There is no build step and no backend — this repository holds only
+`html/index.html` and `html/config.json`, served by
+[static-web-server](https://static-web-server.net/) with `sws.toml`.
 
-That view asks for the visualizer-helper modules and the shared libraries
-through paths relative to the visualizer directory (`../../github/…`,
-`../../lib/…`), which only resolve when the page is served from
-www.lactame.com. `sws.toml` redirects the `/github/` and `/lib/` prefixes back
-to the CDN, so the view works unchanged from any host. Without it the page
-still renders but `mass-tools` and several helpers fail to load, and no mass
-is ever computed.
+The visualizer version is pinned in the two `<script>` URLs of
+`html/index.html`. Released versions are listed at
+<https://www.lactame.com/visualizer/>; bump both URLs together to upgrade.
+Pinning matters because the view is written against a specific visualizer —
+v2.176.1, for instance, 404s on `browserified/openchemlib/openchemlib-core.js`.
+
+Everything else the view needs — the visualizer-helper modules and the shared
+libraries it asks for under `../../github/…` and `../../lib/…` — resolves
+against the CDN on its own, since that is where the visualizer is loaded from.
 
 ## Local preview
 
 ```sh
-docker compose up -d --build
+npm run dev
 ```
 
-Then open <http://localhost:40828>. Any static file server pointed at `html/`
-works too, for example `npx serve html`.
+Then open <http://localhost:40828>. `npm run dev` is a dependency-free static
+server for `html/`; `docker compose up -d --build` runs the real image instead.
 
 ## Deployment
 
