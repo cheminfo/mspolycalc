@@ -5,6 +5,9 @@
   "type": "module",
   "private": true,
   "license": "MIT",
+  "scripts": {
+    "dev": "node dev-server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cheminfo/mspolycalc.git"
