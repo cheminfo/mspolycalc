@@ -52,11 +52,11 @@ build the image from the checkout instead.
 
 ### Domains
 
-The Traefik mode answers on four hostnames. `www.polycalc.org` is canonical and
-serves the page; `polycalc.org`, `mspolycalc.org` and `www.mspolycalc.org` are a
-301 to it, so the same content is never served under four names. All four need
-an A record pointing at this host — Let's Encrypt issues one certificate per
-hostname and the challenge fails for any that resolves elsewhere.
+The Traefik mode answers on `www.polycalc.org`, which is canonical and serves
+the page, and on the apex `polycalc.org`, which is a 301 to it. The
+`mspolycalc.org` names are deliberately not served. Both hostnames need an A
+record pointing at this host — Let's Encrypt issues one certificate per hostname
+and the challenge fails for any that resolves elsewhere.
 
 ## Environment variables
 

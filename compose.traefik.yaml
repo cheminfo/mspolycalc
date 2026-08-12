@@ -18,9 +18,9 @@ services:
       - 'traefik.http.routers.mspolycalc.tls=true'
       - 'traefik.http.routers.mspolycalc.tls.certresolver=letsencrypt'
       - 'traefik.http.services.mspolycalc.loadbalancer.server.port=80'
-      # Redirect router: 301 the three alternate hostnames to the canonical one
-      # so the same page is not served under four names.
-      - 'traefik.http.routers.mspolycalc-alt.rule=Host(`polycalc.org`) || Host(`mspolycalc.org`) || Host(`www.mspolycalc.org`)'
+      # Redirect router: 301 the apex to the canonical name so the same page is
+      # not served under two names.
+      - 'traefik.http.routers.mspolycalc-alt.rule=Host(`polycalc.org`)'
       - 'traefik.http.routers.mspolycalc-alt.entrypoints=websecure'
       - 'traefik.http.routers.mspolycalc-alt.tls=true'
       - 'traefik.http.routers.mspolycalc-alt.tls.certresolver=letsencrypt'
