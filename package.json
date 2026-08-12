@@ -1,6 +1,6 @@
 {
   "name": "mspolycalc",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Interactive analysis of high resolution mass spectra of polymers",
   "type": "module",
   "private": true,
