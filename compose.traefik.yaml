@@ -5,13 +5,13 @@
 # docker compose up -d
 services:
   mspolycalc:
-    image: ghcr.io/cheminfo/mspolycalc:latest
+    image: ${IMAGE_NAME:-ghcr.io/cheminfo/mspolycalc}:${IMAGE_TAG:-latest}
     build: .
     networks:
-      - default
       - traefik
     labels:
       - 'traefik.enable=true'
+      - 'traefik.docker.network=traefik'
       # Canonical router: serve the app on www.polycalc.org
       - 'traefik.http.routers.mspolycalc.rule=Host(`www.polycalc.org`)'
       - 'traefik.http.routers.mspolycalc.entrypoints=websecure'

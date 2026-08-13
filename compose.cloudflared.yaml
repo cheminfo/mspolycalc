@@ -10,7 +10,7 @@
 # docker compose up -d
 services:
   mspolycalc:
-    image: ghcr.io/cheminfo/mspolycalc:latest
+    image: ${IMAGE_NAME:-ghcr.io/cheminfo/mspolycalc}:${IMAGE_TAG:-latest}
     build: .
     init: true
     read_only: true

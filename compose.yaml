@@ -6,7 +6,7 @@ services:
   mspolycalc:
     # Use the released image by default. To build locally instead, run:
     #   docker compose up -d --build
-    image: ghcr.io/cheminfo/mspolycalc:latest
+    image: ${IMAGE_NAME:-ghcr.io/cheminfo/mspolycalc}:${IMAGE_TAG:-latest}
     build: .
     ports:
       - '${PORT:-40828}:80'
